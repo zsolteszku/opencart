@@ -1,0 +1,5 @@
+command.py = Command
+readchar = Readchar
+enum.py = Enum
+git_helper.py = GitHelper
+install_package.py = PackageInstaller
