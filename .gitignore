@@ -4,6 +4,7 @@
 /upload/admin/config.php
 
 # Image File
+/upload/image/catalog/*
 !/upload/image/no_image.jpg
 
 # Image Cache Files
