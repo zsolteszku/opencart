@@ -51,6 +51,7 @@ class ControllerCommonMenu extends Controller {
 		$data['text_opencart'] = $this->language->get('text_opencart');
 		$data['text_payment'] = $this->language->get('text_payment');
 		$data['text_product'] = $this->language->get('text_product');
+        $data['text_import'] = $this->language->get('text_import');
 		$data['text_reports'] = $this->language->get('text_reports');
 		$data['text_report_sale_order'] = $this->language->get('text_report_sale_order');
 		$data['text_report_sale_tax'] = $this->language->get('text_report_sale_tax');
@@ -146,6 +147,7 @@ class ControllerCommonMenu extends Controller {
 		$data['payment'] = $this->url->link('extension/payment', 'token=' . $this->session->data['token'], 'SSL');
 		$data['paypal_search'] = $this->url->link('payment/pp_express/search', 'token=' . $this->session->data['token'], 'SSL');
 		$data['product'] = $this->url->link('catalog/product', 'token=' . $this->session->data['token'], 'SSL');
+        $data['import'] = $this->url->link('catalog/import', 'token=' . $this->session->data['token'], 'SSL');
 		$data['report_sale_order'] = $this->url->link('report/sale_order', 'token=' . $this->session->data['token'], 'SSL');
 		$data['report_sale_tax'] = $this->url->link('report/sale_tax', 'token=' . $this->session->data['token'], 'SSL');
 		$data['report_sale_shipping'] = $this->url->link('report/sale_shipping', 'token=' . $this->session->data['token'], 'SSL');
