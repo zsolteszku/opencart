@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{eeedaebf-f472-48a8-b51e-c5d465b8ff7f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile />
+    <StartupFile>language_coverity.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -13,6 +13,8 @@
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <InterpreterId />
     <InterpreterVersion />
+    <CommandLineArguments>-c c:\xampp\htdocs\opencart\upload\catalog\language\hungarian\ -r c:\xampp\htdocs\opencart\upload\catalog\language\english\ -i</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />

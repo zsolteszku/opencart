@@ -1,3 +1,11 @@
+# .python_modules ignore. Automtically download
+/scripts/.python_modules/
+
+# language_coverity output files
+/scripts/language_coverity/colorama.egg-info/
+/scripts/language_coverity/error.txt
+/scripts/language_coverity/output.txt
+
 # Config and Htaccess Files
 /upload/.htaccess
 /upload/config.php

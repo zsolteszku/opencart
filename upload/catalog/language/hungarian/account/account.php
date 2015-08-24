@@ -18,3 +18,9 @@ $_['text_return']        = 'Visszárú kéréseim';
 $_['text_transaction']   = 'Tranzakciók'; 
 $_['text_newsletter']    = 'Feliratkozás/leiratkozás a hírlevélről';
 ?>
+
+<?php
+//Missing keys with language_coverity script
+$_['text_transactions']        = 'Tanzakciók';
+$_['text_recurring']        = 'Rendszeres megbízások';
+?>
