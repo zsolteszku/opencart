@@ -20,3 +20,10 @@ $_['entry_password']               = 'Jelszó:';
 $_['error_login']                  = 'Érvénytelen e-mail cím és/vagy jelszó!';
 $_['error_approved']               = 'A fiókjába csak jóváhagyás után tud belépni.'; 
 ?>
+
+
+<?php
+//Missing keys with language_coverity script
+$_['text_transactions']        = 'Tanzakciók';
+$_['text_recurring']        = 'Rendszeres megbízások';
+?>

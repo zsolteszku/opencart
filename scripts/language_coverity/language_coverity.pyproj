@@ -13,7 +13,7 @@
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <InterpreterId />
     <InterpreterVersion />
-    <CommandLineArguments>-c c:\xampp\htdocs\opencart\upload\catalog\language\hungarian\ -r c:\xampp\htdocs\opencart\upload\catalog\language\english\ -i</CommandLineArguments>
+    <CommandLineArguments>-p c:\xampp\htdocs\opencart\upload\catalog\language\ -c hungarian -r english -i</CommandLineArguments>
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />

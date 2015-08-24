@@ -48,6 +48,7 @@ hdlr.setFormatter(formatter)
 logger.addHandler(hdlr)
 import re
 pattern = re.compile(ur'\$_\[[\'"](.*)[\'"]\]\s*=\s*[\'"](.*)[\'"];')
+print_duplicate = False
 
 def err(msg):
     logger.error(msg)
@@ -71,14 +72,31 @@ def get_keys(file):
                 result[key]=value
     return result
 
-def check_files(reference_filepath, check_filepath):
-    global key_errors
-    global total_reference_keys
-    global total_check_keys
-    global interactive
-    with open(reference_filepath, "r") as reference_file, open(check_filepath, "r") as check_file:
+class LanguageValue:
+
+    def __init__(self, key, file, value ):
+        self.key = key
+        self.file = file
+        self.value = value
+
+def add_to_all_dictionary(all_dic, dic):
+    for key in dic:
+        value = dic[key]
+        if key in all_dic:
+            if value != all_dic[key]:
+                err("Found duplicate key, but value is different. Key = \"{}\" Value1 = \"{}\" Value2 = \"{}\"".format(key, value, all_dic[key]))
+        else:
+            all_dic[key] = value
+
+def parse_file_pair(reference_filepath, check_filepath, add_to_all):
+    global key_errors, interactive, total_reference_keys, total_check_keys, all_reference_keys, all_check_keys
+    with codecs.open(reference_filepath, "r", "utf-8") as reference_file, codecs.open(check_filepath, "r", "utf-8") as check_file:
         reference_keys = get_keys(reference_file)
         check_keys = get_keys(check_file)
+        if add_to_all:
+            add_to_all_dictionary(all_reference_keys, reference_keys)
+            add_to_all_dictionary(all_check_keys, check_keys)
+            return
     total_reference_keys+=len(reference_keys)
     total_check_keys +=len(check_keys)
     if interactive:
@@ -101,48 +119,54 @@ def check_files(reference_filepath, check_filepath):
             check_file.write("\n?>")
         check_file.close()
 
+def parse_files(add_to_all):
+    if add_to_all:
+        print("Parsing all lang files...")
+    global reference_path, check_path, total_files, file_errors, reference_lang, check_lang
+    for root, dirs, filenames in os.walk(reference_path):
+        relroot = os.path.relpath(root, reference_path)
+        for filename in filenames:
+            total_files += 1
+            logger.debug("root: {} filename: {}".format(relroot, filename))
+            if filename == "{}.php".format(reference_lang):
+                check_filename = "{}.php".format(check_lang)
+            else:
+                check_filename = filename
+            check_filepath = os.path.abspath(os.path.join(check_path, relroot, check_filename))
+            if os.path.exists(check_filepath):
+                parse_file_pair(os.path.join(root, filename), check_filepath, add_to_all)
+            else:
+                logger.error("Cannot find file but in the reference its exists: {}".format(check_filepath))
+                file_errors += 1
 
 def main():
     parser = ExtendedArgumentParser(description="LanguageCoverity for OpenCart")
-    parser.add_argument("-c", "--check_lang_path", required=True, type="DIR", help="Path to the lang to check: e.x.: <path_to_opencart>/upload/catalog/language/hungarian")
-    parser.add_argument("-r", "--reference_lang_path", type="DIR", help="Path to the reference lang: e.x.: <path_to_opencart>/upload/catalog/language/english")
-    parser.add_argument("-o", "--output_file", default="output.txt", type=argparse.FileType('w'), help="OutputFile")
+    parser.add_argument("-p", "--path_to_langs", required=True, type="DIR", help="Path to the languages directory")
+    parser.add_argument("-c", "--check_lang", required=True, help="Check lang")
+    parser.add_argument("-r", "--reference_lang", help="Reference lang")
     parser.add_argument("-e", "--error_file", default="error.txt", type=argparse.FileType('w'), help="ErrorFile")
     parser.add_argument("-i", "--interactive", action="store_true")
     parsed = parser.parse_args()
-    global key_errors
-    global file_errors
-    global total_files
-    global parsing_error
-    global error_file
-    global output_file
-    global total_reference_keys
-    global total_check_keys
-    global interactive
+    global key_errors, file_errors, total_files, parsing_error, error_file, total_reference_keys, total_check_keys, interactive
+    global reference_lang, check_lang, reference_path, check_path
+    global all_reference_keys, all_check_keys
+    all_reference_keys = dict()
+    all_check_keys = dict()
     error_file = parsed.error_file
-    output_file = parsed.output_file
-    reference_path = os.path.abspath(parsed.reference_lang_path)
-    check_path = os.path.abspath(parsed.check_lang_path)
+    reference_lang = parsed.reference_lang
+    check_lang = parsed.check_lang
+    reference_path = os.path.abspath(os.path.join(parsed.path_to_langs, reference_lang))
+    check_path = os.path.abspath(os.path.join(parsed.path_to_langs, check_lang))
+    if not os.path.isdir(reference_path) or not os.path.isdir(check_path):
+        raise Exception("Cannot find {} or {} lang in path {}".format(reference_lang, check_lang, parsed.path_to_langs))
     key_errors=0
     file_errors=0
     total_files=0
     parsing_error=0
     total_reference_keys=0
     total_check_keys=0
-    interactive= parsed.interactive 
-    for root, dirs, filenames in os.walk(reference_path):
-        relroot = os.path.relpath(root, reference_path)
-        for filename in filenames:
-            total_files += 1
-            logger.debug("root: {} filename: {}".format(relroot, filename))
-            check_filepath = os.path.join(check_path, relroot, filename)
-            if os.path.exists(check_filepath):
-                check_files(os.path.join(root, filename), check_filepath)
-            else:
-                logger.error("Cannot find file but in the reference its exists: {}".format(check_filepath))
-                file_errors += 1
-
-
+    interactive = parsed.interactive
+    parse_files(False)
     err("TotalReferenceKeys: {}\nTotalCheckKeys: {}\nTotalFiles: {}\nFileErrors: {}\nKeyErrors: {}\nParsingError: {}".format(total_reference_keys,total_check_keys,total_files, file_errors, key_errors, parsing_error))
            
 
