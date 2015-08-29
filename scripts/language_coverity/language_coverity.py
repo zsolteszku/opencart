@@ -15,14 +15,7 @@ import codecs
 
 install_package.install_packages([ PackageInfo("setuptools", "https://pypi.python.org/packages/source/s/setuptools/setuptools-15.1.tar.gz"),
              PackageInfo("colorama", "https://pypi.python.org/packages/source/c/colorama/colorama-0.3.3.tar.gz"),
-             PackageInfo("colorlog", "https://pypi.python.org/packages/source/c/colorlog/colorlog-2.6.0.tar.gz"),
-             PackageInfo("six", "https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz#md5=476881ef4012262dfc8adc645ee786c4"),
-             PackageInfo("oauth2client", "https://pypi.python.org/packages/source/o/oauth2client/oauth2client-1.4.12.tar.gz#md5=829a05a559b43215d67947aaff9c11b5"),
-             PackageInfo("httplib2", "https://pypi.python.org/packages/source/h/httplib2/httplib2-0.9.1.tar.gz#md5=c49590437e4c5729505d034cd34a8528"),
-             PackageInfo("uritempalte", "https://pypi.python.org/packages/source/u/uritemplate/uritemplate-0.6.tar.gz#md5=ecfc1ea8d62c7f2b47aad625afae6173"),
-             PackageInfo("apiclient", "https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.4.1.tar.gz")])
-
-from apiclient.http import BatchHttpRequest
+             PackageInfo("colorlog", "https://pypi.python.org/packages/source/c/colorlog/colorlog-2.6.0.tar.gz")])
 
 import logging
 from colorlog import ColoredFormatter  
@@ -54,6 +47,7 @@ import re
 pattern = re.compile(ur'\$_\[[\'"](.*)[\'"]\]\s*=\s*[\'"](.*)[\'"];')
 print_duplicate = False
 ignored_keys = ["heading_title", "text_edit", "text_empty", "text_success", "text_message"]
+google_translate_file_suffix = "_google_translate.txt"
 
 def err(msg):
     logger.error(msg)
@@ -183,7 +177,7 @@ def fix_errors():
         with codecs.open(check_filepath, "w", "utf-8") as check_file:
             file_error = key_errors[check_filepath]
             check_file.seek(0)
-            check_file.write(u"//Processed with language_coverity script")
+            check_file.write(u"<? php\n//Processed with language_coverity script")
             for key in file_error.check_keys:
                 write_pair(check_file, key, check_keys[key])
             try:
@@ -200,7 +194,16 @@ def fix_errors():
                             if good is None:
                                 err("Wrong response got. Please select a number between 0 and {}!".format(len(all_check_keys[key].values)))
                     else:
-                        good = get_new_key("{} > Key for ['{}'](English is: \"{}\"): ".format(check_file.name, key, reference_value))
+                        if lang_error.google_translate is None:
+                            good = get_new_key("{} > Key for ['{}'](English is: \"{}\"): ".format(check_file.name, key, reference_value))
+                        else:
+                            good = get_new_key("{} > Key for ['{}'](English is: \"{}\")! Press enter to use google translate (\"{}\"): ".format(check_file.name, key, reference_value, lang_error.google_translate))
+                            if not good or good.isspace():
+                                good = lang_error.google_translate
+                    if good == "EXIT":
+                        raise Exception("pressed exit")
+                    elif good == "SKIP":
+                        continue
                     write_pair(check_file, key, good)
             except:
                 check_file.write(u"\n?>\n")
@@ -260,14 +263,45 @@ def calcualte_key_errors_characters():
      for file in key_errors:
          for error in key_errors[file].lang_errors:
              characters += len(error.reference_value)
-     return characters    
+     return characters   
+ 
+def write_output():
+     global key_errors, output_file
+     for file in key_errors:
+        for error in key_errors[file].lang_errors:
+            output_file.write("{}\n\n\n".format(error.reference_value).replace("\\'", "'").replace("\\\"", "\""))
+
+
+def parse_google_translate_file(filename):
+    result = []
+    with codecs.open(filename, "r", "utf-8") as file:
+            for line in file.read().splitlines():
+                if line and not line.isspace():
+                    result.append(line.decode("utf-8").encode(sys.stdout.encoding, "ignore"))
+    return result
 
 def fetch_google_translate():
     print("Fetching google translates...")
-    global key_errors, output_file
-    for file in key_errors:
-        for error in key_errors[file].lang_errors:
-            output_file.write("{}\n\n\n".format(error.reference_value).replace("\\'", "'").replace("\\\"", "\""))
+    global check_lang, reference_lang, google_translate_map, key_errors
+    check_google_translate = check_lang + google_translate_file_suffix 
+    reference_google_translate = reference_lang + google_translate_file_suffix
+    if os.path.exists(check_google_translate) and os.path.exists(reference_google_translate):
+        print("Found google translate so using it!")
+        check_list = parse_google_translate_file(check_google_translate)
+        ref_list = parse_google_translate_file(reference_google_translate)
+        if len(check_list) == len(ref_list):
+            for index in range(0, len(check_list)):
+                google_translate_map[ref_list[index]] = check_list[index]
+            print("GoogleTranslateMapSize = {}".format(len(google_translate_map)))
+            print("Mapping...")
+            for file in key_errors:
+                for error in key_errors[file].lang_errors:
+                    if error.reference_value in google_translate_map:
+                        error.set_google_translate(google_translate_map[error.reference_value])
+        else:    
+            err("Invalid google translate files! Reason: Size is not equal. {} size is {}. {} size is {}".format(check_google_translate, len(check_list), reference_google_translate, len(ref_list)))
+    else:
+        err("Not found google translate files: {} and {}".format(check_google_translate, reference_google_translate))
 
 
 def main():
@@ -282,6 +316,8 @@ def main():
     global key_errors, file_errors, total_files, parsing_error, error_file, total_reference_keys, total_check_keys, interactive
     global reference_lang, check_lang, reference_path, check_path
     global all_reference_keys, all_check_keys, output_file
+    global google_translate_map
+    google_translate_map = dict()
     all_reference_keys = dict()
     all_check_keys = dict()
     error_file = parsed.error_file
@@ -300,8 +336,9 @@ def main():
     total_check_keys=0
     interactive = parsed.interactive
     parse_files()
-    fetch_google_translate()
+    write_output()
     if interactive:
+        fetch_google_translate()
         fix_errors()
     key_errors_size = calcualte_key_errors()
     characters = calcualte_key_errors_characters()

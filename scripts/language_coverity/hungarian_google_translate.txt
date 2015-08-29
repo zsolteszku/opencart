@@ -1,286 +1,286 @@
 Nyelv
 
 
-Figyelmeztetés: nincs engedélye hozzá az API!
+FigyelmeztetÃ©s: nincs engedÃ©lye hozzÃ¡ az API!
 
 
-Siker: A valuta már megváltozott!
+Siker: A valuta mÃ¡r megvÃ¡ltozott!
 
 
-Figyelmeztetés: Valuta kód érvénytelen!
+FigyelmeztetÃ©s: Valuta kÃ³d Ã©rvÃ©nytelen!
 
 
-Kérjük adja meg a házszámot.
+KÃ©rjÃ¼k adja meg a hÃ¡zszÃ¡mot.
 
 
-Kérjük, adja meg Társaság nyilvántartási száma
+KÃ©rjÃ¼k, adja meg TÃ¡rsasÃ¡g nyilvÃ¡ntartÃ¡si szÃ¡ma
 
 
-Felhívjuk figyelmét, hogy a szállítás csak akkor valósulhat meg, hogy a bejelentett lakcíme történo fizetés esetén Klarna.
+FelhÃ­vjuk figyelmÃ©t, hogy a szÃ¡llÃ­tÃ¡s csak akkor valÃ³sulhat meg, hogy a bejelentett lakcÃ­me tÃ¶rtÃ©no fizetÃ©s esetÃ©n Klarna.
 
 
-<span id = "klarna_invoice_toc"> </ span> <script type = "text / javascript"> var kifejezések = new Klarna.Terms.Invoice ({el: "klarna_invoice_toc", Eid: "%s", az országot: "%s '}); </ script>
+<span id = "klarna_invoice_toc"> </ span> <script type = "text / javascript"> var kifejezÃ©sek = new Klarna.Terms.Invoice ({el: "klarna_invoice_toc", Eid: "%s", az orszÃ¡got: "%s '}); </ script>
 
 
-Kérjük adja meg a taj-számot itt.
+KÃ©rjÃ¼k adja meg a taj-szÃ¡mot itt.
 
 
-<span id = "klarna_invoice_toc"> </ span> (+%s) <script type = "text / javascript"> var kifejezések = new Klarna.Terms.Invoice ({el: "klarna_invoice_toc", Eid: "%s" , ország: '%s', díj:%s}); </ script>
+<span id = "klarna_invoice_toc"> </ span> (+%s) <script type = "text / javascript"> var kifejezÃ©sek = new Klarna.Terms.Invoice ({el: "klarna_invoice_toc", Eid: "%s" , orszÃ¡g: '%s', dÃ­j:%s}); </ script>
 
 
-Kérjük, adja meg telefonszámát.
+KÃ©rjÃ¼k, adja meg telefonszÃ¡mÃ¡t.
 
 
-Kérjük, küldje el a házat kiterjesztése van. Például A, B, C, piros, kék stb.
+KÃ©rjÃ¼k, kÃ¼ldje el a hÃ¡zat kiterjesztÃ©se van. PÃ©ldÃ¡ul A, B, C, piros, kÃ©k stb.
 
 
-A hitelkártya vagy bankkártya
+A hitelkÃ¡rtya vagy bankkÃ¡rtya
 
 
-Nem sikerült csatlakozni a PayPal. Kérjük, forduljon a bolt rendszergazda segítségét vagy válasszon más fizetési módot.
+Nem sikerÃ¼lt csatlakozni a PayPal. KÃ©rjÃ¼k, forduljon a bolt rendszergazda segÃ­tsÃ©gÃ©t vagy vÃ¡lasszon mÃ¡s fizetÃ©si mÃ³dot.
 
 
-Létrehozása biztonságos kapcsolat ...
+LÃ©trehozÃ¡sa biztonsÃ¡gos kapcsolat ...
 
 
 Fizetett az Amazon
 
 
-Szállítás
+SzÃ¡llÃ­tÃ¡s
 
 
 Teljes
 
 
-Adó
+AdÃ³
 
 
-Ajándékcsomagolás
+AjÃ¡ndÃ©kcsomagolÃ¡s
 
 
-Szállítási adó
+SzÃ¡llÃ­tÃ¡si adÃ³
 
 
-Részösszeg
+RÃ©szÃ¶sszeg
 
 
-Ajándék pakolás adó
+AjÃ¡ndÃ©k pakolÃ¡s adÃ³
 
 
-Sikeresen módosították az ügyfelek
+Sikeresen mÃ³dosÃ­tottÃ¡k az Ã¼gyfelek
 
 
-E-mail cím nem tunik érvényesnek!
+E-mail cÃ­m nem tunik Ã©rvÃ©nyesnek!
 
 
-Telefon között kell lennie 3 és 32 karakter!
+Telefon kÃ¶zÃ¶tt kell lennie 3 Ã©s 32 karakter!
 
 
-Vezetéknév között kell lennie 1 és 32 karakter!
+VezetÃ©knÃ©v kÃ¶zÃ¶tt kell lennie 1 Ã©s 32 karakter!
 
 
-Figyelmeztetés: nincs engedélye hozzá az API!
+FigyelmeztetÃ©s: nincs engedÃ©lye hozzÃ¡ az API!
 
 
-Utónevet kell az 1 és 32 karakter!
+UtÃ³nevet kell az 1 Ã©s 32 karakter!
 
 
-%s szükséges!
+%s szÃ¼ksÃ©ges!
 
 
 Tag -
 
 
-Figyelmeztetés: nincs engedélye hozzá az API!
+FigyelmeztetÃ©s: nincs engedÃ©lye hozzÃ¡ az API!
 
 
-Siker: A kupon kedvezményt alkalmazták!
+Siker: A kupon kedvezmÃ©nyt alkalmaztÃ¡k!
 
 
-Figyelmeztetés: kupon vagy érvénytelen, lejárt vagy elérte a használatát, határ!
+FigyelmeztetÃ©s: kupon vagy Ã©rvÃ©nytelen, lejÃ¡rt vagy elÃ©rte a hasznÃ¡latÃ¡t, hatÃ¡r!
 
 
-A hitelkártya vagy bankkártya (Feldolgozott biztonságosan a PayPal)
+A hitelkÃ¡rtya vagy bankkÃ¡rtya (Feldolgozott biztonsÃ¡gosan a PayPal)
 
 
-Kártya Tulajdonos:
+KÃ¡rtya Tulajdonos:
 
 
-Kártya típusa:
+KÃ¡rtya tÃ­pusa:
 
 
-Figyelmeztetés: Általános probléma történt a tranzakció. Kérlek próbáld újra.
+FigyelmeztetÃ©s: ÃltalÃ¡nos problÃ©ma tÃ¶rtÃ©nt a tranzakciÃ³. KÃ©rlek prÃ³bÃ¡ld Ãºjra.
 
 
-Kártya számát:
+KÃ¡rtya szÃ¡mÃ¡t:
 
 
-Kérlek várj!
+KÃ©rlek vÃ¡rj!
 
 
-Figyelmeztetés: Minden fizetési információkat mezo kitöltése kötelezo.
+FigyelmeztetÃ©s: Minden fizetÃ©si informÃ¡ciÃ³kat mezo kitÃ¶ltÃ©se kÃ¶telezo.
 
 
-Kártya biztonsági kód (CVV2):
+KÃ¡rtya biztonsÃ¡gi kÃ³d (CVV2):
 
 
-Figyelmeztetés: Fizetési modul konfigurációs hiba. Kérjük, ellenorizze a bejelentkezési adatait.
+FigyelmeztetÃ©s: FizetÃ©si modul konfigurÃ¡ciÃ³s hiba. KÃ©rjÃ¼k, ellenorizze a bejelentkezÃ©si adatait.
 
 
 (ha van)
 
 
-Figyelmeztetés: Ezt a tranzakciót csökkent. Kérlek próbáld újra.
+FigyelmeztetÃ©s: Ezt a tranzakciÃ³t csÃ¶kkent. KÃ©rlek prÃ³bÃ¡ld Ãºjra.
 
 
-Figyelmeztetés: A megadott hitelkártya-információk érvénytelen. Kérlek próbáld újra.
+FigyelmeztetÃ©s: A megadott hitelkÃ¡rtya-informÃ¡ciÃ³k Ã©rvÃ©nytelen. KÃ©rlek prÃ³bÃ¡ld Ãºjra.
 
 
-Kártya száma:
+KÃ¡rtya szÃ¡ma:
 
 
-Kártya érvényességi ideje:
+KÃ¡rtya Ã©rvÃ©nyessÃ©gi ideje:
 
 
-Kártya idopontjától érvényes:
+KÃ¡rtya idopontjÃ¡tÃ³l Ã©rvÃ©nyes:
 
 
-(Maestro és Solo kártyák esetén)
+(Maestro Ã©s Solo kÃ¡rtyÃ¡k esetÃ©n)
 
 
-A hitelkártya-adatok
+A hitelkÃ¡rtya-adatok
 
 
-Figyelmeztetés: A mérkozés a Fizetési cím város, állam, és irányítószám nem sikerült. Kérlek próbáld újra.
+FigyelmeztetÃ©s: A mÃ©rkozÃ©s a FizetÃ©si cÃ­m vÃ¡ros, Ã¡llam, Ã©s irÃ¡nyÃ­tÃ³szÃ¡m nem sikerÃ¼lt. KÃ©rlek prÃ³bÃ¡ld Ãºjra.
 
 
 Valuta
 
 
-Létezo
+LÃ©tezo
 
 
 Card Verification Code (CVC)
 
 
-Kártya sikeresen el lett távolítva
+KÃ¡rtya sikeresen el lett tÃ¡volÃ­tva
 
 
-Emlékezz kártya Részletek
+EmlÃ©kezz kÃ¡rtya RÃ©szletek
 
 
-Válasszon egy meglévo kártyát
+VÃ¡lasszon egy meglÃ©vo kÃ¡rtyÃ¡t
 
 
-Vannak Hiba történt a sorrendben. Kérjük, forduljon a bolt rendszergazda segítségét.
+Vannak Hiba tÃ¶rtÃ©nt a sorrendben. KÃ©rjÃ¼k, forduljon a bolt rendszergazda segÃ­tsÃ©gÃ©t.
 
 
-Új
+Ãšj
 
 
- %s kifizetések
+Â %s kifizetÃ©sek
 
 
-Törlés Kártya
+TÃ¶rlÃ©s KÃ¡rtya
 
 
-Kártya Név:
+KÃ¡rtya NÃ©v:
 
 
-Kártya típusa:
+KÃ¡rtya tÃ­pusa:
 
 
-Lejárat:
+LejÃ¡rat:
 
 
 %s minden%s%s
 
 
-Vannak hiba A kártya eltávolítása. Kérjük, forduljon a bolt rendszergazda segítségét.
+Vannak hiba A kÃ¡rtya eltÃ¡volÃ­tÃ¡sa. KÃ©rjÃ¼k, forduljon a bolt rendszergazda segÃ­tsÃ©gÃ©t.
 
 
-%s minden%s%s%s kifizetések majd
+%s minden%s%s%s kifizetÃ©sek majd
 
 
-Utolsó számjegyek:
+UtolsÃ³ szÃ¡mjegyek:
 
 
-Új vagy meglévo kártyát:
+Ãšj vagy meglÃ©vo kÃ¡rtyÃ¡t:
 
 
-Kártya Részletek
+KÃ¡rtya RÃ©szletek
 
 
-Biztosan törölni szeretné ezt a kártyát
+Biztosan tÃ¶rÃ¶lni szeretnÃ© ezt a kÃ¡rtyÃ¡t
 
 
-Fizetés
+FizetÃ©s
 
 
-Sikertelen fizetés
+Sikertelen fizetÃ©s
 
 
-Sikertelen fizetés!
+Sikertelen fizetÃ©s!
 
 
-Bevásárlókocsi
+BevÃ¡sÃ¡rlÃ³kocsi
 
 
-%s szükséges!
+%s szÃ¼ksÃ©ges!
 
 
-Hitelkártya / bankkártya / Paypal / Pénztárca (G2APay)
+HitelkÃ¡rtya / bankkÃ¡rtya / Paypal / PÃ©nztÃ¡rca (G2APay)
 
 
 A mi eBay store
 
 
-Figyelmeztetés: Kérjük, adja meg az összeget jutalom pontokat kell használni!
+FigyelmeztetÃ©s: KÃ©rjÃ¼k, adja meg az Ã¶sszeget jutalom pontokat kell hasznÃ¡lni!
 
 
-Figyelmeztetés: Nem kell%s jutalom pontokat!
+FigyelmeztetÃ©s: Nem kell%s jutalom pontokat!
 
 
-Figyelmeztetés: nincs engedélye hozzá az API!
+FigyelmeztetÃ©s: nincs engedÃ©lye hozzÃ¡ az API!
 
 
-Siker: Ön jutalom pontokat kedvezményt alkalmazták!
+Siker: Ã–n jutalom pontokat kedvezmÃ©nyt alkalmaztÃ¡k!
 
 
-Figyelmeztetés: A maximális pontszám, hogy lehet alkalmazni:%s!
+FigyelmeztetÃ©s: A maximÃ¡lis pontszÃ¡m, hogy lehet alkalmazni:%s!
 
 
-Hitel / betéti kártya
+Hitel / betÃ©ti kÃ¡rtya
 
 
-Kérjük, próbálkozzon késobb, vagy használjon más fizetési módot.
+KÃ©rjÃ¼k, prÃ³bÃ¡lkozzon kÃ©sobb, vagy hasznÃ¡ljon mÃ¡s fizetÃ©si mÃ³dot.
 
 
-Irányítószámmal ellenorzés:%s
+IrÃ¡nyÃ­tÃ³szÃ¡mmal ellenorzÃ©s:%s
 
 
-Engedélyezési kód:%s
+EngedÃ©lyezÃ©si kÃ³d:%s
 
 
-Az Ön bank elutasította a tranzakciót. Használjon más fizetési módot.
+Az Ã–n bank elutasÃ­totta a tranzakciÃ³t. HasznÃ¡ljon mÃ¡s fizetÃ©si mÃ³dot.
 
 
-CVV2 ellenorzés:%s
+CVV2 ellenorzÃ©s:%s
 
 
-Card részletek
+Card rÃ©szletek
 
 
 Egyeztetett
 
 
-Feldolgozni a fizetési
+Feldolgozni a fizetÃ©si
 
 
-Nem hitelesített
+Nem hitelesÃ­tett
 
 
-Hitelesített
+HitelesÃ­tett
 
 
 Nem adott
@@ -289,175 +289,175 @@ Nem adott
 Nem illeszkedik
 
 
-Nem sikerült befejezni a tranzakciót. Kérjük, próbálkozzon késobb, vagy használjon más fizetési módot.
+Nem sikerÃ¼lt befejezni a tranzakciÃ³t. KÃ©rjÃ¼k, prÃ³bÃ¡lkozzon kÃ©sobb, vagy hasznÃ¡ljon mÃ¡s fizetÃ©si mÃ³dot.
 
 
-Megkísérli, de nem fejezte be
+MegkÃ­sÃ©rli, de nem fejezte be
 
 
-Nem tudta feldolgozni a fizetést. Kérjük, ellenorizze a megadott adatok.
+Nem tudta feldolgozni a fizetÃ©st. KÃ©rjÃ¼k, ellenorizze a megadott adatok.
 
 
-Kártya száma
+KÃ¡rtya szÃ¡ma
 
 
-Kártya típusa
+KÃ¡rtya tÃ­pusa
 
 
-A biztonsági kód (CVV2)
+A biztonsÃ¡gi kÃ³d (CVV2)
 
 
-Erosítse
+ErosÃ­tse
 
 
-Nem ellenorzött
+Nem ellenorzÃ¶tt
 
 
 3D Secure:%s
 
 
-Nem tudja teljesíteni
+Nem tudja teljesÃ­teni
 
 
-Címellenorzést:%s
+CÃ­mellenorzÃ©st:%s
 
 
-Lejárati dátum
+LejÃ¡rati dÃ¡tum
 
 
-Ex adó:
+Ex adÃ³:
 
 
-Hozzászólások
+HozzÃ¡szÃ³lÃ¡sok
 
 
-<p> Az Ön kérése sikeresen elküldve a bolt tulajdonosa! </ p>
+<p> Az Ã–n kÃ©rÃ©se sikeresen elkÃ¼ldve a bolt tulajdonosa! </ p>
 
 
-Nyitvatartás
+NyitvatartÃ¡s
 
 
-Áruházaink
+ÃruhÃ¡zaink
 
 
 Fizetett az Amazon amerikai
 
 
-Szállítás
+SzÃ¡llÃ­tÃ¡s
 
 
 Teljes
 
 
-Adó
+AdÃ³
 
 
-Ajándékcsomagolás
+AjÃ¡ndÃ©kcsomagolÃ¡s
 
 
-Szállítási adó
+SzÃ¡llÃ­tÃ¡si adÃ³
 
 
-Részösszeg
+RÃ©szÃ¶sszeg
 
 
-Ajándék pakolás adó
+AjÃ¡ndÃ©k pakolÃ¡s adÃ³
 
 
-Ismétlodo kifizetések
+IsmÃ©tlodo kifizetÃ©sek
 
 
 Jutalom Pont
 
 
-év
+Ã©v
 
 
-%s szükséges!
+%s szÃ¼ksÃ©ges!
 
 
-hónap
+hÃ³nap
 
 
-%s minden%d%s (ek)%d kifizetés (ek)
+%s minden%d%s (ek)%d kifizetÃ©s (ek)
 
 
 nap
 
 
-héten
+hÃ©ten
 
 
-%s minden%d%s (k), amíg nem törli
+%s minden%d%s (k), amÃ­g nem tÃ¶rli
 
 
-Fizetési Profil
+FizetÃ©si Profil
 
 
-Figyelmeztetés: Az Ön számlája meghaladta megengedett számát bejelentkezési kísérletek. Kérjük, próbálja újra 1 óra.
+FigyelmeztetÃ©s: Az Ã–n szÃ¡mlÃ¡ja meghaladta megengedett szÃ¡mÃ¡t bejelentkezÃ©si kÃ­sÃ©rletek. KÃ©rjÃ¼k, prÃ³bÃ¡lja Ãºjra 1 Ã³ra.
 
 
-%s minden%d%s (ek)%d kifizetés (ek), majd
+%s minden%d%s (ek)%d kifizetÃ©s (ek), majd
 
 
-Ismétlodo elem
+IsmÃ©tlodo elem
 
 
-fél hónapig
+fÃ©l hÃ³napig
 
 
-Válasszon Cím
+VÃ¡lasszon CÃ­m
 
 
-Ex adó:
+Ex adÃ³:
 
 
-Van egy új termék felülvizsgálat várakozás.
+Van egy Ãºj termÃ©k felÃ¼lvizsgÃ¡lat vÃ¡rakozÃ¡s.
 
 
-Termék:%s
+TermÃ©k:%s
 
 
-Értékelo:%s
+Ã‰rtÃ©kelo:%s
 
 
-Értékelés:%s
+Ã‰rtÃ©kelÃ©s:%s
 
 
-%s - Termék vélemény
+%s - TermÃ©k vÃ©lemÃ©ny
 
 
-Beszámoló szövege:
+BeszÃ¡molÃ³ szÃ¶vege:
 
 
-Új Partner
+Ãšj Partner
 
 
-A teljes jutalék összege most:%s.
+A teljes jutalÃ©k Ã¶sszege most:%s.
 
 
 Telefon:
 
 
-Rendelés azonosító:
+RendelÃ©s azonosÃ­tÃ³:
 
 
-Keresztnév:
+KeresztnÃ©v:
 
 
-Megkaptad%jutalékát!
+Megkaptad%jutalÃ©kÃ¡t!
 
 
-A fiókját most jött létre, és be tud jelentkezni segítségével az e-mail cím és jelszó ellátogat honlapunkra, vagy a következo címen:
+A fiÃ³kjÃ¡t most jÃ¶tt lÃ©tre, Ã©s be tud jelentkezni segÃ­tsÃ©gÃ©vel az e-mail cÃ­m Ã©s jelszÃ³ ellÃ¡togat honlapunkra, vagy a kÃ¶vetkezo cÃ­men:
 
 
-Egy új partner írta alá:
+Egy Ãºj partner Ã­rta alÃ¡:
 
 
 Honlap:
 
 
-Vállalat:
+VÃ¡llalat:
 
 
 Store:
@@ -466,217 +466,217 @@ Store:
 E-Mail:
 
 
-Családnév:
+CsalÃ¡dnÃ©v:
 
 
-%s - Partner Bizottság
+%s - Partner BizottsÃ¡g
 
 
-Kérjük adja meg a házszámot.
+KÃ©rjÃ¼k adja meg a hÃ¡zszÃ¡mot.
 
 
-Kérjük, adja meg Társaság nyilvántartási száma
+KÃ©rjÃ¼k, adja meg TÃ¡rsasÃ¡g nyilvÃ¡ntartÃ¡si szÃ¡ma
 
 
-Felhívjuk figyelmét, hogy a szállítás csak akkor valósulhat meg, hogy a bejelentett lakcíme történo fizetés esetén Klarna.
+FelhÃ­vjuk figyelmÃ©t, hogy a szÃ¡llÃ­tÃ¡s csak akkor valÃ³sulhat meg, hogy a bejelentett lakcÃ­me tÃ¶rtÃ©no fizetÃ©s esetÃ©n Klarna.
 
 
-<span id = "klarna_account_toc"> </ span> <script type = "text / javascript"> var kifejezések = new Klarna.Terms.Account ({el: "klarna_account_toc", Eid: "%s", az országot: "%s '}); </ script>
+<span id = "klarna_account_toc"> </ span> <script type = "text / javascript"> var kifejezÃ©sek = new Klarna.Terms.Account ({el: "klarna_account_toc", Eid: "%s", az orszÃ¡got: "%s '}); </ script>
 
 
-Kérjük adja meg a taj-számot itt.
+KÃ©rjÃ¼k adja meg a taj-szÃ¡mot itt.
 
 
-Kérjük, adja meg telefonszámát.
+KÃ©rjÃ¼k, adja meg telefonszÃ¡mÃ¡t.
 
 
-Kérjük, küldje el a házat kiterjesztése van. Például A, B, C, piros, kék stb.
+KÃ©rjÃ¼k, kÃ¼ldje el a hÃ¡zat kiterjesztÃ©se van. PÃ©ldÃ¡ul A, B, C, piros, kÃ©k stb.
 
 
-Letöltések
+LetÃ¶ltÃ©sek
 
 
-Regisztráció
+RegisztrÃ¡ciÃ³
 
 
-Tranzakciók
+TranzakciÃ³k
 
 
-Kategóriák
+KategÃ³riÃ¡k
 
 
-Bejelentkezés
+BejelentkezÃ©s
 
 
-Kijelentkezés
+KijelentkezÃ©s
 
 
-Mutasd az összeset
+Mutasd az Ã¶sszeset
 
 
-Rend története
+Rend tÃ¶rtÃ©nete
 
 
-Szállítás
+SzÃ¡llÃ­tÃ¡s
 
 
-Kedvezmény
+KedvezmÃ©ny
 
 
 Teljes
 
 
-Adó
+AdÃ³
 
 
-Részösszeg
+RÃ©szÃ¶sszeg
 
 
-Kérjük, válasszon szállítási címet
+KÃ©rjÃ¼k, vÃ¡lasszon szÃ¡llÃ­tÃ¡si cÃ­met
 
 
-Ön megrendelése sikeresen helyezték. Rendelés részletei alatt
+Ã–n megrendelÃ©se sikeresen helyeztÃ©k. RendelÃ©s rÃ©szletei alatt
 
 
-Bejelentkezés és fizetés Amazon
+BejelentkezÃ©s Ã©s fizetÃ©s Amazon
 
 
-Nincs szállítási lehetoségek a kijelölt címre. Kérjük, válasszon egy másik szállítási címet.
+Nincs szÃ¡llÃ­tÃ¡si lehetosÃ©gek a kijelÃ¶lt cÃ­mre. KÃ©rjÃ¼k, vÃ¡lasszon egy mÃ¡sik szÃ¡llÃ­tÃ¡si cÃ­met.
 
 
-Hiba lekérése a címét az Amazon. Kérjük, forduljon a bolt rendszergazda segítségét.
+Hiba lekÃ©rÃ©se a cÃ­mÃ©t az Amazon. KÃ©rjÃ¼k, forduljon a bolt rendszergazda segÃ­tsÃ©gÃ©t.
 
 
-Erosítse
+ErosÃ­tse
 
 
-Sikertelen bejelentkezés:%s fiók e-mail cím nem egyezett Amazon fiók e-mail címét
+Sikertelen bejelentkezÃ©s:%s fiÃ³k e-mail cÃ­m nem egyezett Amazon fiÃ³k e-mail cÃ­mÃ©t
 
 
-Bejelentkezés sikertelen
+BejelentkezÃ©s sikertelen
 
 
-A rendelés összegzése
+A rendelÃ©s Ã¶sszegzÃ©se
 
 
-Kérjük, válassza ki a fizetési módot
+KÃ©rjÃ¼k, vÃ¡lassza ki a fizetÃ©si mÃ³dot
 
 
-Kérjük, válassza ki a fizetési módot
+KÃ©rjÃ¼k, vÃ¡lassza ki a fizetÃ©si mÃ³dot
 
 
 Vissza
 
 
-Kérjük, válasszon szállítási címet
+KÃ©rjÃ¼k, vÃ¡lasszon szÃ¡llÃ­tÃ¡si cÃ­met
 
 
-Volt egy hiba történt a sorrendben. Kérjük, forduljon a bolt rendszergazda segítségét.
+Volt egy hiba tÃ¶rtÃ©nt a sorrendben. KÃ©rjÃ¼k, forduljon a bolt rendszergazda segÃ­tsÃ©gÃ©t.
 
 
-Adók / Egyéb kezelési költség
+AdÃ³k / EgyÃ©b kezelÃ©si kÃ¶ltsÃ©g
 
 
-Az Ön érdekében került!
+Az Ã–n Ã©rdekÃ©ben kerÃ¼lt!
 
 
-Kérjük, válasszon szállítási módot
+KÃ©rjÃ¼k, vÃ¡lasszon szÃ¡llÃ­tÃ¡si mÃ³dot
 
 
 Kupon
 
 
-Minimális rendelési összeg Belépés és fizetés Amazon%s!
+MinimÃ¡lis rendelÃ©si Ã¶sszeg BelÃ©pÃ©s Ã©s fizetÃ©s Amazon%s!
 
 
-Adja meg a szelvény kód van. Ha nem rendelkezik ilyennel, hagyja üresen.
+Adja meg a szelvÃ©ny kÃ³d van. Ha nem rendelkezik ilyennel, hagyja Ã¼resen.
 
 
-Kosár
+KosÃ¡r
 
 
-Bejelentkezés és fizetés Amazon
+BejelentkezÃ©s Ã©s fizetÃ©s Amazon
 
 
-Folytatás
+FolytatÃ¡s
 
 
-Keresés
+KeresÃ©s
 
 
-Figyelmeztetés: Az Ön számlája meghaladta megengedett számát bejelentkezési kísérletek. Kérjük, próbálja újra 1 óra.
+FigyelmeztetÃ©s: Az Ã–n szÃ¡mlÃ¡ja meghaladta megengedett szÃ¡mÃ¡t bejelentkezÃ©si kÃ­sÃ©rletek. KÃ©rjÃ¼k, prÃ³bÃ¡lja Ãºjra 1 Ã³ra.
 
 
-Hitelkártya / bankkártya (BluePay)
+HitelkÃ¡rtya / bankkÃ¡rtya (BluePay)
 
 
-Emlékezz kártya Részletek
+EmlÃ©kezz kÃ¡rtya RÃ©szletek
 
 
-Volt egy hiba történt a tranzakció -
+Volt egy hiba tÃ¶rtÃ©nt a tranzakciÃ³ -
 
 
-Állami
+Ãllami
 
 
 Zipcode
 
 
-Válasszon egy meglévo kártyát
+VÃ¡lasszon egy meglÃ©vo kÃ¡rtyÃ¡t
 
 
 E-mail
 
 
-Kártya Név:
+KÃ¡rtya NÃ©v:
 
 
-Kártya típusa:
+KÃ¡rtya tÃ­pusa:
 
 
-Kártya Részletek
+KÃ¡rtya RÃ©szletek
 
 
-Létezo
+LÃ©tezo
 
 
-Kártya tulajdonosa
+KÃ¡rtya tulajdonosa
 
 
-Napirendi%s Sorszám:%s
+Napirendi%s SorszÃ¡m:%s
 
 
-Lejárat:
+LejÃ¡rat:
 
 
-Kártya száma
+KÃ¡rtya szÃ¡ma
 
 
-Kártya érvényességi ideje
+KÃ¡rtya Ã©rvÃ©nyessÃ©gi ideje
 
 
-Új vagy meglévo kártyát:
+Ãšj vagy meglÃ©vo kÃ¡rtyÃ¡t:
 
 
-Új
+Ãšj
 
 
 Telefon
 
 
-Kártya biztonsági kód (CVV2)
+KÃ¡rtya biztonsÃ¡gi kÃ³d (CVV2)
 
 
-Utca, házszám
+Utca, hÃ¡zszÃ¡m
 
 
-Utolsó számjegyek:
+UtolsÃ³ szÃ¡mjegyek:
 
 
 City
 
 
-Kártya idopontjától érvényes
+KÃ¡rtya idopontjÃ¡tÃ³l Ã©rvÃ©nyes
 
 
 d / m / Y H: i: s
@@ -688,343 +688,343 @@ Lista
 Tekintse Google Map
 
 
-Mégsem
+MÃ©gsem
 
 
 Submit
 
 
-Cím
+CÃ­m
 
 
-Rács
+RÃ¡cs
 
 
 Loading ...
 
 
-Hibakód (%s):%s%s%s vonalon
+HibakÃ³d (%s):%s%s%s vonalon
 
 
-Hitelkártya / bankkártya (BluePay)
+HitelkÃ¡rtya / bankkÃ¡rtya (BluePay)
 
 
-Emlékezz kártya Részletek
+EmlÃ©kezz kÃ¡rtya RÃ©szletek
 
 
-Volt egy hiba történt a tranzakció -
+Volt egy hiba tÃ¶rtÃ©nt a tranzakciÃ³ -
 
 
-Állami
+Ãllami
 
 
 Zipcode
 
 
-Válasszon egy meglévo kártyát
+VÃ¡lasszon egy meglÃ©vo kÃ¡rtyÃ¡t
 
 
 E-mail
 
 
-Kártya Név:
+KÃ¡rtya NÃ©v:
 
 
-Kártya típusa:
+KÃ¡rtya tÃ­pusa:
 
 
-Kártya Részletek
+KÃ¡rtya RÃ©szletek
 
 
-Létezo
+LÃ©tezo
 
 
-Kártya tulajdonosa
+KÃ¡rtya tulajdonosa
 
 
-Napirendi%s Sorszám:%s
+Napirendi%s SorszÃ¡m:%s
 
 
-Lejárat:
+LejÃ¡rat:
 
 
-Kártya száma
+KÃ¡rtya szÃ¡ma
 
 
-Kártya érvényességi ideje
+KÃ¡rtya Ã©rvÃ©nyessÃ©gi ideje
 
 
-Új vagy meglévo kártyát:
+Ãšj vagy meglÃ©vo kÃ¡rtyÃ¡t:
 
 
-Új
+Ãšj
 
 
 Telefon
 
 
-Kártya biztonsági kód (CVV2)
+KÃ¡rtya biztonsÃ¡gi kÃ³d (CVV2)
 
 
-Utca, házszám
+Utca, hÃ¡zszÃ¡m
 
 
-Utolsó számjegyek:
+UtolsÃ³ szÃ¡mjegyek:
 
 
 City
 
 
-Kártya idopontjától érvényes
+KÃ¡rtya idopontjÃ¡tÃ³l Ã©rvÃ©nyes
 
 
-Hitelkártya / bankkártya (Skrill)
+HitelkÃ¡rtya / bankkÃ¡rtya (Skrill)
 
 
-Emlékezz kártya Részletek
+EmlÃ©kezz kÃ¡rtya RÃ©szletek
 
 
 (ha van)
 
 
-Válasszon egy meglévo kártyát
+VÃ¡lasszon egy meglÃ©vo kÃ¡rtyÃ¡t
 
 
- %s kifizetések
+Â %s kifizetÃ©sek
 
 
-Kártya Név:
+KÃ¡rtya NÃ©v:
 
 
-Kártya típusa:
+KÃ¡rtya tÃ­pusa:
 
 
 %s minden%s%s
 
 
-(Maestro és Solo kártyák esetén)
+(Maestro Ã©s Solo kÃ¡rtyÃ¡k esetÃ©n)
 
 
-Létezo
+LÃ©tezo
 
 
-Lejárat:
+LejÃ¡rat:
 
 
-Új vagy meglévo kártyát:
+Ãšj vagy meglÃ©vo kÃ¡rtyÃ¡t:
 
 
-Új
+Ãšj
 
 
-%s minden%s%s%s kifizetések majd
+%s minden%s%s%s kifizetÃ©sek majd
 
 
-Utolsó számjegyek:
+UtolsÃ³ szÃ¡mjegyek:
 
 
-Siker: A szállítási becslést kértek!
+Siker: A szÃ¡llÃ­tÃ¡si becslÃ©st kÃ©rtek!
 
 
-Kérjük, válassza ki a kívánt szállítási módot használni ezt a rendet.
+KÃ©rjÃ¼k, vÃ¡lassza ki a kÃ­vÃ¡nt szÃ¡llÃ­tÃ¡si mÃ³dot hasznÃ¡lni ezt a rendet.
 
 
-Régió / állam
+RÃ©giÃ³ / Ã¡llam
 
 
-Figyelmeztetés: Nincs Szállítási lehetoségek állnak rendelkezésre. Kérjük, <a href="%s"> kapcsolatba velünk </a> segítségért!
+FigyelmeztetÃ©s: Nincs SzÃ¡llÃ­tÃ¡si lehetosÃ©gek Ã¡llnak rendelkezÃ©sre. KÃ©rjÃ¼k, <a href="%s"> kapcsolatba velÃ¼nk </a> segÃ­tsÃ©gÃ©rt!
 
 
-Válasszon ki egy országot!
+VÃ¡lasszon ki egy orszÃ¡got!
 
 
-Becsült Szállítási &amp; Adók
+BecsÃ¼lt SzÃ¡llÃ­tÃ¡si &amp; AdÃ³k
 
 
-Irányítószám
+IrÃ¡nyÃ­tÃ³szÃ¡m
 
 
-Kérjük, válasszon régiót / állam!
+KÃ©rjÃ¼k, vÃ¡lasszon rÃ©giÃ³t / Ã¡llam!
 
 
-Adja meg a rendeltetési kap egy hajózási becslést.
+Adja meg a rendeltetÃ©si kap egy hajÃ³zÃ¡si becslÃ©st.
 
 
-Figyelmeztetés: Szállítási módszer szükséges!
+FigyelmeztetÃ©s: SzÃ¡llÃ­tÃ¡si mÃ³dszer szÃ¼ksÃ©ges!
 
 
-Ország
+OrszÃ¡g
 
 
-Irányítószámmal között kell lennie, 2 és 10 karakter!
+IrÃ¡nyÃ­tÃ³szÃ¡mmal kÃ¶zÃ¶tt kell lennie, 2 Ã©s 10 karakter!
 
 
-(Maestro és Solo kártyák esetén)
+(Maestro Ã©s Solo kÃ¡rtyÃ¡k esetÃ©n)
 
 
 (ha van)
 
 
-Élo chat
+Ã‰lo chat
 
 
-Figyelmeztetés: Ajándék utalvány érvénytelen, vagy a mérleg már használják fel!
+FigyelmeztetÃ©s: AjÃ¡ndÃ©k utalvÃ¡ny Ã©rvÃ©nytelen, vagy a mÃ©rleg mÃ¡r hasznÃ¡ljÃ¡k fel!
 
 
-Siker: Az ajándék utalvány kedvezményt alkalmazták!
+Siker: Az ajÃ¡ndÃ©k utalvÃ¡ny kedvezmÃ©nyt alkalmaztÃ¡k!
 
 
-E-mail cím nem tunik érvényesnek!
+E-mail cÃ­m nem tunik Ã©rvÃ©nyesnek!
 
 
-Összeg között kell lennie%s és%s!
+Ã–sszeg kÃ¶zÃ¶tt kell lennie%s Ã©s%s!
 
 
-Siker: Ön módosította a kosárba!
+Siker: Ã–n mÃ³dosÃ­totta a kosÃ¡rba!
 
 
-Figyelmeztetés: nincs engedélye hozzá az API!
+FigyelmeztetÃ©s: nincs engedÃ©lye hozzÃ¡ az API!
 
 
-%s ajándékutalvány%s
+%s ajÃ¡ndÃ©kutalvÃ¡ny%s
 
 
-Az Ön neve legyen 1 és 64 karakter!
+Az Ã–n neve legyen 1 Ã©s 64 karakter!
 
 
-Ki kell választani egy témát!
+Ki kell vÃ¡lasztani egy tÃ©mÃ¡t!
 
 
-Címzett nevét kell lennie az 1 és 64 karakter!
+CÃ­mzett nevÃ©t kell lennie az 1 Ã©s 64 karakter!
 
 
-Szállítás
+SzÃ¡llÃ­tÃ¡s
 
 
-Kedvezmény
+KedvezmÃ©ny
 
 
 Teljes
 
 
-Adó
+AdÃ³
 
 
-Részösszeg
+RÃ©szÃ¶sszeg
 
 
-Figyelmeztetés: Fizetési mód szükséges!
+FigyelmeztetÃ©s: FizetÃ©si mÃ³d szÃ¼ksÃ©ges!
 
 
-Siker: Fizetési mód van állítva!
+Siker: FizetÃ©si mÃ³d van Ã¡llÃ­tva!
 
 
-Válasszon ki egy országot!
+VÃ¡lasszon ki egy orszÃ¡got!
 
 
-Cím 1 között kell lennie 3 és 128 karakter!
+CÃ­m 1 kÃ¶zÃ¶tt kell lennie 3 Ã©s 128 karakter!
 
 
-Vezetéknév között kell lennie 1 és 32 karakter!
+VezetÃ©knÃ©v kÃ¶zÃ¶tt kell lennie 1 Ã©s 32 karakter!
 
 
-Kérjük, válasszon régiót / állam!
+KÃ©rjÃ¼k, vÃ¡lasszon rÃ©giÃ³t / Ã¡llam!
 
 
-Figyelmeztetés: nincs Fizetési lehetoségek állnak rendelkezésre!
+FigyelmeztetÃ©s: nincs FizetÃ©si lehetosÃ©gek Ã¡llnak rendelkezÃ©sre!
 
 
-Figyelmeztetés: nincs engedélye hozzá az API!
+FigyelmeztetÃ©s: nincs engedÃ©lye hozzÃ¡ az API!
 
 
-Város között kell lennie 3 és 128 karakter!
+VÃ¡ros kÃ¶zÃ¶tt kell lennie 3 Ã©s 128 karakter!
 
 
-Siker: Fizetési cím beállítva!
+Siker: FizetÃ©si cÃ­m beÃ¡llÃ­tva!
 
 
-Irányítószámmal között kell lennie a 2. és 10 karaktert ebben az országban!
+IrÃ¡nyÃ­tÃ³szÃ¡mmal kÃ¶zÃ¶tt kell lennie a 2. Ã©s 10 karaktert ebben az orszÃ¡gban!
 
 
-Utónevet kell az 1 és 32 karakter!
+UtÃ³nevet kell az 1 Ã©s 32 karakter!
 
 
-Figyelmeztetés: Fizetési cím szükséges!
+FigyelmeztetÃ©s: FizetÃ©si cÃ­m szÃ¼ksÃ©ges!
 
 
-%s szükséges!
+%s szÃ¼ksÃ©ges!
 
 
-Ex adó:
+Ex adÃ³:
 
 
-A hitelkártya vagy bankkártya
+A hitelkÃ¡rtya vagy bankkÃ¡rtya
 
 
 Diners
 
 
-RealMPI Fatal Error, nem vállal felelosséget muszak
+RealMPI Fatal Error, nem vÃ¡llal felelossÃ©get muszak
 
 
-Kártya számát
+KÃ¡rtya szÃ¡mÃ¡t
 
 
 (ha van)
 
 
-AVS címet
+AVS cÃ­met
 
 
-TSS eredmény
+TSS eredmÃ©ny
 
 
-Kártya ország
+KÃ¡rtya orszÃ¡g
 
 
-Kérjük, ellenorizze a kártyabirtokos nevét érvényes
+KÃ©rjÃ¼k, ellenorizze a kÃ¡rtyabirtokos nevÃ©t Ã©rvÃ©nyes
 
 
-Auth kód
+Auth kÃ³d
 
 
-Kapcsoló
+KapcsolÃ³
 
 
-Kereskedo igényel 3D biztonságos, de nem tudja ellenorizni a bankjával, próbáld késobb
+Kereskedo igÃ©nyel 3D biztonsÃ¡gos, de nem tudja ellenorizni a bankjÃ¡val, prÃ³bÃ¡ld kÃ©sobb
 
 
-Kérjük, ellenorizze a kártya számát érvényes
+KÃ©rjÃ¼k, ellenorizze a kÃ¡rtya szÃ¡mÃ¡t Ã©rvÃ©nyes
 
 
-Kártya típusa
+KÃ¡rtya tÃ­pusa
 
 
-AVS irányítószám
+AVS irÃ¡nyÃ­tÃ³szÃ¡m
 
 
-Kérlek várj!
+KÃ©rlek vÃ¡rj!
 
 
-ECI (3D biztonságos) eredmény
+ECI (3D biztonsÃ¡gos) eredmÃ©ny
 
 
 American Express
 
 
-Kérjük, ellenorizze a CVV2 érvényes
+KÃ©rjÃ¼k, ellenorizze a CVV2 Ã©rvÃ©nyes
 
 
-Kártya jegybank
+KÃ¡rtya jegybank
 
 
-(Maestro és Solo kártyák esetén)
+(Maestro Ã©s Solo kÃ¡rtyÃ¡k esetÃ©n)
 
 
-Üzenet
+Ãœzenet
 
 
-A hitelkártya-adatok
+A hitelkÃ¡rtya-adatok
 
 
 Megrendelni ref
@@ -1033,148 +1033,148 @@ Megrendelni ref
 Visa
 
 
-Nem sikerült ellenorizni Beiratkozási, nem vállal felelosséget muszak
+Nem sikerÃ¼lt ellenorizni BeiratkozÃ¡si, nem vÃ¡llal felelossÃ©get muszak
 
 
 Mastercard
 
 
-CVN eredmény
+CVN eredmÃ©ny
 
 
-Érvénytelen válasz érkezett a kártya processzora, semmilyen kifizetésre nem került sor
+Ã‰rvÃ©nytelen vÃ¡lasz Ã©rkezett a kÃ¡rtya processzora, semmilyen kifizetÃ©sre nem kerÃ¼lt sor
 
 
-Kártya száma
+KÃ¡rtya szÃ¡ma
 
 
-Idobélyeg
+IdobÃ©lyeg
 
 
-Kártya érvényességi ideje
+KÃ¡rtya Ã©rvÃ©nyessÃ©gi ideje
 
 
-Hitelesítési kísérlet Értettem, felelosséget muszak
+HitelesÃ­tÃ©si kÃ­sÃ©rlet Ã‰rtettem, felelossÃ©get muszak
 
 
-Érvénytelen válasz a Beiratkozási Server, nem vállal felelosséget muszak
+Ã‰rvÃ©nytelen vÃ¡lasz a BeiratkozÃ¡si Server, nem vÃ¡llal felelossÃ©get muszak
 
 
-Kártya régióban
+KÃ¡rtya rÃ©giÃ³ban
 
 
-Kártyabirtokos nem iratkozott be, felelosségre váltás
+KÃ¡rtyabirtokos nem iratkozott be, felelossÃ©gre vÃ¡ltÃ¡s
 
 
-A megadott jelszó helytelen, nem vállal felelosséget muszak
+A megadott jelszÃ³ helytelen, nem vÃ¡llal felelossÃ©get muszak
 
 
-Utolsó 4 számjegye
+UtolsÃ³ 4 szÃ¡mjegye
 
 
-Sikeres hitelesítés felelosséget muszak
+Sikeres hitelesÃ­tÃ©s felelossÃ©get muszak
 
 
-Beiratkozott, de válasza érvénytelen ACS (Access Control Server), nem vállal felelosséget muszak
+Beiratkozott, de vÃ¡lasza Ã©rvÃ©nytelen ACS (Access Control Server), nem vÃ¡llal felelossÃ©get muszak
 
 
-Érvénytelen válasz ACS, nem vállal felelosséget muszak
+Ã‰rvÃ©nytelen vÃ¡lasz ACS, nem vÃ¡llal felelossÃ©get muszak
 
 
-Hitelesítés Elérhetetlen, nem vállal felelosséget muszak
+HitelesÃ­tÃ©s ElÃ©rhetetlen, nem vÃ¡llal felelossÃ©get muszak
 
 
-Kártya biztonsági kód (CVV2)
+KÃ¡rtya biztonsÃ¡gi kÃ³d (CVV2)
 
 
-Eredmény
+EredmÃ©ny
 
 
-Lézer
+LÃ©zer
 
 
-3D biztonságos engedély nem sikerült
+3D biztonsÃ¡gos engedÃ©ly nem sikerÃ¼lt
 
 
-Kártyatulajdonos neve
+KÃ¡rtyatulajdonos neve
 
 
-A hitelkártya vagy bankkártya
+A hitelkÃ¡rtya vagy bankkÃ¡rtya
 
 
-Nem sikerült csatlakozni a PayPal. Kérjük, forduljon a bolt rendszergazda segítségét vagy válasszon más fizetési módot.
+Nem sikerÃ¼lt csatlakozni a PayPal. KÃ©rjÃ¼k, forduljon a bolt rendszergazda segÃ­tsÃ©gÃ©t vagy vÃ¡lasszon mÃ¡s fizetÃ©si mÃ³dot.
 
 
-Létrehozása biztonságos kapcsolat ...
+LÃ©trehozÃ¡sa biztonsÃ¡gos kapcsolat ...
 
 
-Minimális rendelési összeg%s:%s!
+MinimÃ¡lis rendelÃ©si Ã¶sszeg%s:%s!
 
 
-Siker: Ön módosította a kosárba!
+Siker: Ã–n mÃ³dosÃ­totta a kosÃ¡rba!
 
 
-Jelölt termékek *** nem állnak rendelkezésre a kívánt mennyiséget, vagy nincs készleten!
+JelÃ¶lt termÃ©kek *** nem Ã¡llnak rendelkezÃ©sre a kÃ­vÃ¡nt mennyisÃ©get, vagy nincs kÃ©szleten!
 
 
-%s szükséges!
+%s szÃ¼ksÃ©ges!
 
 
-Figyelmeztetés: nincs engedélye hozzá az API!
+FigyelmeztetÃ©s: nincs engedÃ©lye hozzÃ¡ az API!
 
 
-A termék nem lehet megvásárolni a boltban választotta!
+A termÃ©k nem lehet megvÃ¡sÃ¡rolni a boltban vÃ¡lasztotta!
 
 
-Hitel / betéti kártya (Realex)
+Hitel / betÃ©ti kÃ¡rtya (Realex)
 
 
 Diners
 
 
-RealMPI Fatal Error, nem vállal felelosséget muszak
+RealMPI Fatal Error, nem vÃ¡llal felelossÃ©get muszak
 
 
-Nem terheli felelosség a Shift
+Nem terheli felelossÃ©g a Shift
 
 
-Hiba történt a kérés teljesítése.
+Hiba tÃ¶rtÃ©nt a kÃ©rÃ©s teljesÃ­tÃ©se.
 
 
-AVS címet
+AVS cÃ­met
 
 
-TSS eredmény
+TSS eredmÃ©ny
 
 
-Kapcsoló
+KapcsolÃ³
 
 
-Kérjük, válassza ki a kártya típusától
+KÃ©rjÃ¼k, vÃ¡lassza ki a kÃ¡rtya tÃ­pusÃ¡tÃ³l
 
 
-Kártya típusa
+KÃ¡rtya tÃ­pusa
 
 
-AVS irányítószám
+AVS irÃ¡nyÃ­tÃ³szÃ¡m
 
 
-ECI (3D biztonságos) eredmény
+ECI (3D biztonsÃ¡gos) eredmÃ©ny
 
 
-Kártya neve
+KÃ¡rtya neve
 
 
-Kártya típusa
+KÃ¡rtya tÃ­pusa
 
 
 American Express
 
 
-Üzenet
+Ãœzenet
 
 
-Kártya lejár
+KÃ¡rtya lejÃ¡r
 
 
 Megrendelni ref
@@ -1183,136 +1183,136 @@ Megrendelni ref
 Visa
 
 
-Nem sikerült ellenorizni Beiratkozási, nem vállal felelosséget muszak
+Nem sikerÃ¼lt ellenorizni BeiratkozÃ¡si, nem vÃ¡llal felelossÃ©get muszak
 
 
 Mastercard
 
 
-CVN eredmény
+CVN eredmÃ©ny
 
 
-Idobélyeg
+IdobÃ©lyeg
 
 
-Hitelesítési kísérlet Értettem, felelosséget muszak
+HitelesÃ­tÃ©si kÃ­sÃ©rlet Ã‰rtettem, felelossÃ©get muszak
 
 
-Érvénytelen válasz a Beiratkozási Server, nem vállal felelosséget muszak
+Ã‰rvÃ©nytelen vÃ¡lasz a BeiratkozÃ¡si Server, nem vÃ¡llal felelossÃ©get muszak
 
 
-Kattintson <a href="%s"> ide </a> a folytatáshoz
+Kattintson <a href="%s"> ide </a> a folytatÃ¡shoz
 
 
-Kártyabirtokos nem iratkozott be, felelosségre váltás
+KÃ¡rtyabirtokos nem iratkozott be, felelossÃ©gre vÃ¡ltÃ¡s
 
 
-A megadott jelszó helytelen, nem vállal felelosséget muszak
+A megadott jelszÃ³ helytelen, nem vÃ¡llal felelossÃ©get muszak
 
 
-A fizetési engedélyezték.
+A fizetÃ©si engedÃ©lyeztÃ©k.
 
 
-Sikeres hitelesítés felelosséget muszak
+Sikeres hitelesÃ­tÃ©s felelossÃ©get muszak
 
 
-Beiratkozott, de válasza érvénytelen ACS (Access Control Server), nem vállal felelosséget muszak
+Beiratkozott, de vÃ¡lasza Ã©rvÃ©nytelen ACS (Access Control Server), nem vÃ¡llal felelossÃ©get muszak
 
 
-Érvénytelen válasz ACS, nem vállal felelosséget muszak
+Ã‰rvÃ©nytelen vÃ¡lasz ACS, nem vÃ¡llal felelossÃ©get muszak
 
 
-Hitelesítés Elérhetetlen, nem vállal felelosséget muszak
+HitelesÃ­tÃ©s ElÃ©rhetetlen, nem vÃ¡llal felelossÃ©get muszak
 
 
-Hiba történt a kérés teljesítése a bank.
+Hiba tÃ¶rtÃ©nt a kÃ©rÃ©s teljesÃ­tÃ©se a bank.
 
 
-Erosítse
+ErosÃ­tse
 
 
-Auth eredmény
+Auth eredmÃ©ny
 
 
-A fizetési sikertelen volt
+A fizetÃ©si sikertelen volt
 
 
-Lézer
+LÃ©zer
 
 
-Kártya száma
+KÃ¡rtya szÃ¡ma
 
 
-Hash ellenorzés sikertelen. Ne próbálja meg a befizetés és a kifizetés állapota ismeretlen. Kérjük, lépjen kapcsolatba a kereskedo.
+Hash ellenorzÃ©s sikertelen. Ne prÃ³bÃ¡lja meg a befizetÃ©s Ã©s a kifizetÃ©s Ã¡llapota ismeretlen. KÃ©rjÃ¼k, lÃ©pjen kapcsolatba a kereskedo.
 
 
-A hitelkártya vagy bankkártya
+A hitelkÃ¡rtya vagy bankkÃ¡rtya
 
 
 Diners
 
 
-RealMPI Fatal Error, nem vállal felelosséget muszak
+RealMPI Fatal Error, nem vÃ¡llal felelossÃ©get muszak
 
 
-Kártya számát
+KÃ¡rtya szÃ¡mÃ¡t
 
 
 (ha van)
 
 
-AVS címet
+AVS cÃ­met
 
 
-TSS eredmény
+TSS eredmÃ©ny
 
 
-Kártya ország
+KÃ¡rtya orszÃ¡g
 
 
-Kérjük, ellenorizze a kártyabirtokos nevét érvényes
+KÃ©rjÃ¼k, ellenorizze a kÃ¡rtyabirtokos nevÃ©t Ã©rvÃ©nyes
 
 
-Auth kód
+Auth kÃ³d
 
 
-Kapcsoló
+KapcsolÃ³
 
 
-Kereskedo igényel 3D biztonságos, de nem tudja ellenorizni a bankjával, próbáld késobb
+Kereskedo igÃ©nyel 3D biztonsÃ¡gos, de nem tudja ellenorizni a bankjÃ¡val, prÃ³bÃ¡ld kÃ©sobb
 
 
-Kérjük, ellenorizze a kártya számát érvényes
+KÃ©rjÃ¼k, ellenorizze a kÃ¡rtya szÃ¡mÃ¡t Ã©rvÃ©nyes
 
 
-Kártya típusa
+KÃ¡rtya tÃ­pusa
 
 
-AVS irányítószám
+AVS irÃ¡nyÃ­tÃ³szÃ¡m
 
 
-Kérlek várj!
+KÃ©rlek vÃ¡rj!
 
 
-ECI (3D biztonságos) eredmény
+ECI (3D biztonsÃ¡gos) eredmÃ©ny
 
 
 American Express
 
 
-Kérjük, ellenorizze a CVV2 érvényes
+KÃ©rjÃ¼k, ellenorizze a CVV2 Ã©rvÃ©nyes
 
 
-Kártya jegybank
+KÃ¡rtya jegybank
 
 
-(Maestro és Solo kártyák esetén)
+(Maestro Ã©s Solo kÃ¡rtyÃ¡k esetÃ©n)
 
 
-Üzenet
+Ãœzenet
 
 
-A hitelkártya-adatok
+A hitelkÃ¡rtya-adatok
 
 
 Megrendelni ref
@@ -1321,124 +1321,124 @@ Megrendelni ref
 Visa
 
 
-Nem sikerült ellenorizni Beiratkozási, nem vállal felelosséget muszak
+Nem sikerÃ¼lt ellenorizni BeiratkozÃ¡si, nem vÃ¡llal felelossÃ©get muszak
 
 
 Mastercard
 
 
-CVN eredmény
+CVN eredmÃ©ny
 
 
-Érvénytelen válasz érkezett a kártya processzora, semmilyen kifizetésre nem került sor
+Ã‰rvÃ©nytelen vÃ¡lasz Ã©rkezett a kÃ¡rtya processzora, semmilyen kifizetÃ©sre nem kerÃ¼lt sor
 
 
-Kártya száma
+KÃ¡rtya szÃ¡ma
 
 
-Idobélyeg
+IdobÃ©lyeg
 
 
-Kártya érvényességi ideje
+KÃ¡rtya Ã©rvÃ©nyessÃ©gi ideje
 
 
-Hitelesítési kísérlet Értettem, felelosséget muszak
+HitelesÃ­tÃ©si kÃ­sÃ©rlet Ã‰rtettem, felelossÃ©get muszak
 
 
-Érvénytelen válasz a Beiratkozási Server, nem vállal felelosséget muszak
+Ã‰rvÃ©nytelen vÃ¡lasz a BeiratkozÃ¡si Server, nem vÃ¡llal felelossÃ©get muszak
 
 
-Kártya régióban
+KÃ¡rtya rÃ©giÃ³ban
 
 
-Kártyabirtokos nem iratkozott be, felelosségre váltás
+KÃ¡rtyabirtokos nem iratkozott be, felelossÃ©gre vÃ¡ltÃ¡s
 
 
-A megadott jelszó helytelen, nem vállal felelosséget muszak
+A megadott jelszÃ³ helytelen, nem vÃ¡llal felelossÃ©get muszak
 
 
-Utolsó 4 számjegye
+UtolsÃ³ 4 szÃ¡mjegye
 
 
-Sikeres hitelesítés felelosséget muszak
+Sikeres hitelesÃ­tÃ©s felelossÃ©get muszak
 
 
-Beiratkozott, de válasza érvénytelen ACS (Access Control Server), nem vállal felelosséget muszak
+Beiratkozott, de vÃ¡lasza Ã©rvÃ©nytelen ACS (Access Control Server), nem vÃ¡llal felelossÃ©get muszak
 
 
-Érvénytelen válasz ACS, nem vállal felelosséget muszak
+Ã‰rvÃ©nytelen vÃ¡lasz ACS, nem vÃ¡llal felelossÃ©get muszak
 
 
-Hitelesítés Elérhetetlen, nem vállal felelosséget muszak
+HitelesÃ­tÃ©s ElÃ©rhetetlen, nem vÃ¡llal felelossÃ©get muszak
 
 
-Kártya biztonsági kód (CVV2)
+KÃ¡rtya biztonsÃ¡gi kÃ³d (CVV2)
 
 
-Eredmény
+EredmÃ©ny
 
 
-Lézer
+LÃ©zer
 
 
-3D biztonságos engedély nem sikerült
+3D biztonsÃ¡gos engedÃ©ly nem sikerÃ¼lt
 
 
-Kártyatulajdonos neve
+KÃ¡rtyatulajdonos neve
 
 
-Figyelmeztetés: A minimális rendelési összeg%s:%s!
+FigyelmeztetÃ©s: A minimÃ¡lis rendelÃ©si Ã¶sszeg%s:%s!
 
 
-Figyelmeztetés: Szállítási cím szükséges!
+FigyelmeztetÃ©s: SzÃ¡llÃ­tÃ¡si cÃ­m szÃ¼ksÃ©ges!
 
 
-Siker: módosította megrendelések!
+Siker: mÃ³dosÃ­totta megrendelÃ©sek!
 
 
-Figyelmeztetés: jelölt termékek *** nem állnak rendelkezésre a kívánt mennyiséget, vagy nincs készleten!
+FigyelmeztetÃ©s: jelÃ¶lt termÃ©kek *** nem Ã¡llnak rendelkezÃ©sre a kÃ­vÃ¡nt mennyisÃ©get, vagy nincs kÃ©szleten!
 
 
-Figyelmeztetés: Nincs Szállítási lehetoségek állnak rendelkezésre!
+FigyelmeztetÃ©s: Nincs SzÃ¡llÃ­tÃ¡si lehetosÃ©gek Ã¡llnak rendelkezÃ©sre!
 
 
-Figyelmeztetés: Fizetési mód szükséges!
+FigyelmeztetÃ©s: FizetÃ©si mÃ³d szÃ¼ksÃ©ges!
 
 
-Figyelmeztetés: nincs Fizetési lehetoségek állnak rendelkezésre!
+FigyelmeztetÃ©s: nincs FizetÃ©si lehetosÃ©gek Ã¡llnak rendelkezÃ©sre!
 
 
-Figyelmeztetés: nincs engedélye hozzá az API!
+FigyelmeztetÃ©s: nincs engedÃ©lye hozzÃ¡ az API!
 
 
-Figyelmeztetés: Szállítási módszer szükséges!
+FigyelmeztetÃ©s: SzÃ¡llÃ­tÃ¡si mÃ³dszer szÃ¼ksÃ©ges!
 
 
-Figyelmeztetés: Adatok kell állítani!
+FigyelmeztetÃ©s: Adatok kell Ã¡llÃ­tani!
 
 
-Figyelmeztetés: rendelés nem található!
+FigyelmeztetÃ©s: rendelÃ©s nem talÃ¡lhatÃ³!
 
 
-Figyelmeztetés: Fizetési cím szükséges!
+FigyelmeztetÃ©s: FizetÃ©si cÃ­m szÃ¼ksÃ©ges!
 
 
-Az Ön kosara üres!
+Az Ã–n kosara Ã¼res!
 
 
-Kosár megtekintése
+KosÃ¡r megtekintÃ©se
 
 
-Fizetési Profil
+FizetÃ©si Profil
 
 
 %s elem (ek) -%s
 
 
-Fizetés
+FizetÃ©s
 
 
-A hitelkártya vagy bankkártya
+A hitelkÃ¡rtya vagy bankkÃ¡rtya
 
 
 American Express
@@ -1447,220 +1447,220 @@ American Express
 Diners
 
 
-Kártya biztonsági kód nem egyezik
+KÃ¡rtya biztonsÃ¡gi kÃ³d nem egyezik
 
 
-Kártya biztonsági kód mérkozés
+KÃ¡rtya biztonsÃ¡gi kÃ³d mÃ©rkozÃ©s
 
 
 (ha van)
 
 
-Egy üres választ kell adnia, hogy nincs kód küldték, és hogy nem volt jele annak, hogy a kód nem volt jelen a kártyán.
+Egy Ã¼res vÃ¡laszt kell adnia, hogy nincs kÃ³d kÃ¼ldtÃ©k, Ã©s hogy nem volt jele annak, hogy a kÃ³d nem volt jelen a kÃ¡rtyÃ¡n.
 
 
-Hibaüzenet:
+HibaÃ¼zenet:
 
 
-Kérjük, ellenorizze a kártya számát érvényes
+KÃ©rjÃ¼k, ellenorizze a kÃ¡rtya szÃ¡mÃ¡t Ã©rvÃ©nyes
 
 
-Kérjük, ellenorizze a kártyabirtokos nevét érvényes
+KÃ©rjÃ¼k, ellenorizze a kÃ¡rtyabirtokos nevÃ©t Ã©rvÃ©nyes
 
 
-Kibocsátó nem tanúsított, és / vagy nem nyújtott titkosítási kulcsok
+KibocsÃ¡tÃ³ nem tanÃºsÃ­tott, Ã©s / vagy nem nyÃºjtott titkosÃ­tÃ¡si kulcsok
 
 
-Merchant jelezte, hogy a kártya biztonsági kód nincs jelen a kártya
+Merchant jelezte, hogy a kÃ¡rtya biztonsÃ¡gi kÃ³d nincs jelen a kÃ¡rtya
 
 
-Kártya kibocsátója megerosítette, hogy utcai és irányítószám meccset nyilvántartásukban
+KÃ¡rtya kibocsÃ¡tÃ³ja megerosÃ­tette, hogy utcai Ã©s irÃ¡nyÃ­tÃ³szÃ¡m meccset nyilvÃ¡ntartÃ¡sukban
 
 
-Ref szám:
+Ref szÃ¡m:
 
 
 Nem feldolgozott
 
 
-Card márka:
+Card mÃ¡rka:
 
 
 Mastercard
 
 
-Kártya kibocsátója megerosítette, hogy utcai mérkozések nyilvántartásukban, de az irányítószámot nem egyezik
+KÃ¡rtya kibocsÃ¡tÃ³ja megerosÃ­tette, hogy utcai mÃ©rkozÃ©sek nyilvÃ¡ntartÃ¡sukban, de az irÃ¡nyÃ­tÃ³szÃ¡mot nem egyezik
 
 
-Hiba üzenet:
+Hiba Ã¼zenet:
 
 
-Kártya kibocsátója nem ellenorzi az AVS információk
+KÃ¡rtya kibocsÃ¡tÃ³ja nem ellenorzi az AVS informÃ¡ciÃ³k
 
 
-Kérlek várj!
+KÃ©rlek vÃ¡rj!
 
 
-Kérjük, ellenorizze a CVV2 érvényes
+KÃ©rjÃ¼k, ellenorizze a CVV2 Ã©rvÃ©nyes
 
 
-Kártya utolsó 4 számjegye: xxxx
+KÃ¡rtya utolsÃ³ 4 szÃ¡mjegye: xxxx
 
 
-(Maestro és Solo kártyák esetén)
+(Maestro Ã©s Solo kÃ¡rtyÃ¡k esetÃ©n)
 
 
-Kártya kibocsátója megerosítette, hogy az irányítószámot mérkozések nyilvántartásukban. A Kibocsátó nem ellenorzi az utcán
+KÃ¡rtya kibocsÃ¡tÃ³ja megerosÃ­tette, hogy az irÃ¡nyÃ­tÃ³szÃ¡mot mÃ©rkozÃ©sek nyilvÃ¡ntartÃ¡sukban. A KibocsÃ¡tÃ³ nem ellenorzi az utcÃ¡n
 
 
-Nincs válasz a hitelkártya-szövetség kapta
+Nincs vÃ¡lasz a hitelkÃ¡rtya-szÃ¶vetsÃ©g kapta
 
 
 Referencia:
 
 
-A hitelkártya-adatok
+A hitelkÃ¡rtya-adatok
 
 
-Kártya kibocsátója megerosítette, hogy utcai mérkozések nyilvántartásukban. A Kibocsátó nem ellenorzi az irányítószámot
+KÃ¡rtya kibocsÃ¡tÃ³ja megerosÃ­tette, hogy utcai mÃ©rkozÃ©sek nyilvÃ¡ntartÃ¡sukban. A KibocsÃ¡tÃ³ nem ellenorzi az irÃ¡nyÃ­tÃ³szÃ¡mot
 
 
-Nincs cím adatok vagy cím nem ellenorzi a kártya kibocsátója
+Nincs cÃ­m adatok vagy cÃ­m nem ellenorzi a kÃ¡rtya kibocsÃ¡tÃ³ja
 
 
-Jóváhagyási kód:
+JÃ³vÃ¡hagyÃ¡si kÃ³d:
 
 
-Mindkét utca és irányítószám nem egyezik a kártya kibocsátója bejegyzések
+MindkÃ©t utca Ã©s irÃ¡nyÃ­tÃ³szÃ¡m nem egyezik a kÃ¡rtya kibocsÃ¡tÃ³ja bejegyzÃ©sek
 
 
-Kártya száma
+KÃ¡rtya szÃ¡ma
 
 
-Nem lehet feldolgozni a befizetést, vegye fel a kapcsolatot a kereskedo
+Nem lehet feldolgozni a befizetÃ©st, vegye fel a kapcsolatot a kereskedo
 
 
-Kártya érvényességi ideje
+KÃ¡rtya Ã©rvÃ©nyessÃ©gi ideje
 
 
-Processzor kód:
+Processzor kÃ³d:
 
 
-Kártya kibocsátója megerosítette, hogy az irányítószámot mérkozések nyilvántartásukban de utcai nem egyezik
+KÃ¡rtya kibocsÃ¡tÃ³ja megerosÃ­tette, hogy az irÃ¡nyÃ­tÃ³szÃ¡mot mÃ©rkozÃ©sek nyilvÃ¡ntartÃ¡sukban de utcai nem egyezik
 
 
 Mester
 
 
-Kártyatulajdonos neve
+KÃ¡rtyatulajdonos neve
 
 
 Visa (Credit / Debit / Electron / Delta)
 
 
-Kártya biztonsági kód (CVV2)
+KÃ¡rtya biztonsÃ¡gi kÃ³d (CVV2)
 
 
-Eredmény:
+EredmÃ©ny:
 
 
-Elfogadott kártyák:
+Elfogadott kÃ¡rtyÃ¡k:
 
 
-Új kártya
+Ãšj kÃ¡rtya
 
 
-Biztonsági kód:
+BiztonsÃ¡gi kÃ³d:
 
 
-Cím ellenorzés:
+CÃ­m ellenorzÃ©s:
 
 
-Response kód:
+Response kÃ³d:
 
 
-Figyelmeztetés: Kérjük, adja meg az összeget jutalom pontokat kell használni!
+FigyelmeztetÃ©s: KÃ©rjÃ¼k, adja meg az Ã¶sszeget jutalom pontokat kell hasznÃ¡lni!
 
 
-Használjon Jutalom Pont (Elérheto:%s)
+HasznÃ¡ljon Jutalom Pont (ElÃ©rheto:%s)
 
 
-Figyelmeztetés: A maximális pontszám, hogy lehet alkalmazni:%s!
+FigyelmeztetÃ©s: A maximÃ¡lis pontszÃ¡m, hogy lehet alkalmazni:%s!
 
 
-Pont használni (max%s)
+Pont hasznÃ¡lni (max%s)
 
 
-Figyelmeztetés: Nem kell%s jutalom pontokat!
+FigyelmeztetÃ©s: Nem kell%s jutalom pontokat!
 
 
-Siker: Ön jutalom pontokat kedvezményt alkalmazták!
+Siker: Ã–n jutalom pontokat kedvezmÃ©nyt alkalmaztÃ¡k!
 
 
 Adja meg a kupon itt
 
 
-Siker: A kupon kedvezményt alkalmazták!
+Siker: A kupon kedvezmÃ©nyt alkalmaztÃ¡k!
 
 
-Használjon kuponkódja
+HasznÃ¡ljon kuponkÃ³dja
 
 
-Figyelmeztetés: Kérem adjon meg egy kupon kódot!
+FigyelmeztetÃ©s: KÃ©rem adjon meg egy kupon kÃ³dot!
 
 
-Figyelmeztetés: kupon vagy érvénytelen, lejárt vagy elérte a használati korlátozás!
+FigyelmeztetÃ©s: kupon vagy Ã©rvÃ©nytelen, lejÃ¡rt vagy elÃ©rte a hasznÃ¡lati korlÃ¡tozÃ¡s!
 
 
-Hitel / betéti kártya (Globalpay)
+Hitel / betÃ©ti kÃ¡rtya (Globalpay)
 
 
 Diners
 
 
-RealMPI Fatal Error, nem vállal felelosséget muszak
+RealMPI Fatal Error, nem vÃ¡llal felelossÃ©get muszak
 
 
-Nem terheli felelosség a Shift
+Nem terheli felelossÃ©g a Shift
 
 
-Hiba történt a kérés teljesítése.
+Hiba tÃ¶rtÃ©nt a kÃ©rÃ©s teljesÃ­tÃ©se.
 
 
-AVS címet
+AVS cÃ­met
 
 
-TSS eredmény
+TSS eredmÃ©ny
 
 
-Kapcsoló
+KapcsolÃ³
 
 
-Kérjük, válassza ki a kártya típusától
+KÃ©rjÃ¼k, vÃ¡lassza ki a kÃ¡rtya tÃ­pusÃ¡tÃ³l
 
 
-Kártya típusa
+KÃ¡rtya tÃ­pusa
 
 
-AVS irányítószám
+AVS irÃ¡nyÃ­tÃ³szÃ¡m
 
 
-ECI (3D biztonságos) eredmény
+ECI (3D biztonsÃ¡gos) eredmÃ©ny
 
 
-Kártya neve
+KÃ¡rtya neve
 
 
-Kártya típusa
+KÃ¡rtya tÃ­pusa
 
 
 American Express
 
 
-Üzenet
+Ãœzenet
 
 
-Kártya lejár
+KÃ¡rtya lejÃ¡r
 
 
 Megrendelni ref
@@ -1669,91 +1669,91 @@ Megrendelni ref
 Visa
 
 
-Nem sikerült ellenorizni Beiratkozási, nem vállal felelosséget muszak
+Nem sikerÃ¼lt ellenorizni BeiratkozÃ¡si, nem vÃ¡llal felelossÃ©get muszak
 
 
 Mastercard
 
 
-CVN eredmény
+CVN eredmÃ©ny
 
 
-Idobélyeg
+IdobÃ©lyeg
 
 
-Hitelesítési kísérlet Értettem, felelosséget muszak
+HitelesÃ­tÃ©si kÃ­sÃ©rlet Ã‰rtettem, felelossÃ©get muszak
 
 
-Érvénytelen válasz a Beiratkozási Server, nem vállal felelosséget muszak
+Ã‰rvÃ©nytelen vÃ¡lasz a BeiratkozÃ¡si Server, nem vÃ¡llal felelossÃ©get muszak
 
 
-Kattintson <a href="%s"> ide </a> a folytatáshoz
+Kattintson <a href="%s"> ide </a> a folytatÃ¡shoz
 
 
-Kártyabirtokos nem iratkozott be, felelosségre váltás
+KÃ¡rtyabirtokos nem iratkozott be, felelossÃ©gre vÃ¡ltÃ¡s
 
 
-A megadott jelszó helytelen, nem vállal felelosséget muszak
+A megadott jelszÃ³ helytelen, nem vÃ¡llal felelossÃ©get muszak
 
 
-A fizetési engedélyezték.
+A fizetÃ©si engedÃ©lyeztÃ©k.
 
 
-Sikeres hitelesítés felelosséget muszak
+Sikeres hitelesÃ­tÃ©s felelossÃ©get muszak
 
 
-Beiratkozott, de válasza érvénytelen ACS (Access Control Server), nem vállal felelosséget muszak
+Beiratkozott, de vÃ¡lasza Ã©rvÃ©nytelen ACS (Access Control Server), nem vÃ¡llal felelossÃ©get muszak
 
 
-Érvénytelen válasz ACS, nem vállal felelosséget muszak
+Ã‰rvÃ©nytelen vÃ¡lasz ACS, nem vÃ¡llal felelossÃ©get muszak
 
 
-Hitelesítés Elérhetetlen, nem vállal felelosséget muszak
+HitelesÃ­tÃ©s ElÃ©rhetetlen, nem vÃ¡llal felelossÃ©get muszak
 
 
-Hiba történt a kérés teljesítése a bank.
+Hiba tÃ¶rtÃ©nt a kÃ©rÃ©s teljesÃ­tÃ©se a bank.
 
 
-Erosítse
+ErosÃ­tse
 
 
-Auth eredmény
+Auth eredmÃ©ny
 
 
-A fizetési sikertelen volt
+A fizetÃ©si sikertelen volt
 
 
-Lézer
+LÃ©zer
 
 
-Kártya száma
+KÃ¡rtya szÃ¡ma
 
 
-Hash ellenorzés sikertelen. Ne próbálja meg a befizetés és a kifizetés állapota ismeretlen. Kérjük, lépjen kapcsolatba a kereskedo.
+Hash ellenorzÃ©s sikertelen. Ne prÃ³bÃ¡lja meg a befizetÃ©s Ã©s a kifizetÃ©s Ã¡llapota ismeretlen. KÃ©rjÃ¼k, lÃ©pjen kapcsolatba a kereskedo.
 
 
-Hitel / betéti kártya
+Hitel / betÃ©ti kÃ¡rtya
 
 
-Kártya típusa
+KÃ¡rtya tÃ­pusa
 
 
 Egyeztetett
 
 
-Irányítószámmal ellenorzés:%s
+IrÃ¡nyÃ­tÃ³szÃ¡mmal ellenorzÃ©s:%s
 
 
-Fizetési részletek
+FizetÃ©si rÃ©szletek
 
 
-Erosítse
+ErosÃ­tse
 
 
-Nem ellenorzött
+Nem ellenorzÃ¶tt
 
 
-CVV2 ellenorzés:%s
+CVV2 ellenorzÃ©s:%s
 
 
 Nem illeszkedik
@@ -1762,310 +1762,310 @@ Nem illeszkedik
 Nem adott
 
 
-Címellenorzést:%s
+CÃ­mellenorzÃ©st:%s
 
 
-Ex adó:
+Ex adÃ³:
 
 
-Ön nincs címeket fiókjában.
+Ã–n nincs cÃ­meket fiÃ³kjÃ¡ban.
 
 
-Ön címe sikeresen be
+Ã–n cÃ­me sikeresen be
 
 
-Ön címe sikeresen frissítve
+Ã–n cÃ­me sikeresen frissÃ­tve
 
 
-%s szükséges!
+%s szÃ¼ksÃ©ges!
 
 
-év
+Ã©v
 
 
- %s kifizetések
+Â %s kifizetÃ©sek
 
 
-héten
+hÃ©ten
 
 
-Kérjük, válassza ki a fizetési visszatéro!
+KÃ©rjÃ¼k, vÃ¡lassza ki a fizetÃ©si visszatÃ©ro!
 
 
 %s minden%s%s
 
 
-hónap
+hÃ³nap
 
 
-%s minden%d%s (ek)%d kifizetés (ek)
+%s minden%d%s (ek)%d kifizetÃ©s (ek)
 
 
 nap
 
 
-%s minden%s%s%s kifizetések majd
+%s minden%s%s%s kifizetÃ©sek majd
 
 
-amíg törölték
+amÃ­g tÃ¶rÃ¶ltÃ©k
 
 
-%s minden%d%s (k), amíg nem törli
+%s minden%d%s (k), amÃ­g nem tÃ¶rli
 
 
-Fizetési Profil
+FizetÃ©si Profil
 
 
-%s minden%d%s (ek)%d kifizetés (ek), majd
+%s minden%d%s (ek)%d kifizetÃ©s (ek), majd
 
 
-Ismétlodo elem
+IsmÃ©tlodo elem
 
 
-fél hónapig
+fÃ©l hÃ³napig
 
 
-Választható
+VÃ¡laszthatÃ³
 
 
-Érték között kell lennie%s és%s
+Ã‰rtÃ©k kÃ¶zÃ¶tt kell lennie%s Ã©s%s
 
 
-Követési link
+KÃ¶vetÃ©si link
 
 
-Írja be a termék nevét szeretné hivatkozó
+Ãrja be a termÃ©k nevÃ©t szeretnÃ© hivatkozÃ³
 
 
-A követési kód
+A kÃ¶vetÃ©si kÃ³d
 
 
-Követési link Generator
+KÃ¶vetÃ©si link Generator
 
 
-Rendelés azonosító
+RendelÃ©s azonosÃ­tÃ³
 
 
-Ügyfél
+ÃœgyfÃ©l
 
 
-Visszatéro ID
+VisszatÃ©ro ID
 
 
-Figyelmeztetés: Ajándék utalvány érvénytelen, vagy a mérleg már használják fel!
+FigyelmeztetÃ©s: AjÃ¡ndÃ©k utalvÃ¡ny Ã©rvÃ©nytelen, vagy a mÃ©rleg mÃ¡r hasznÃ¡ljÃ¡k fel!
 
 
-Siker: Az ajándék utalvány kedvezményt alkalmazták!
+Siker: Az ajÃ¡ndÃ©k utalvÃ¡ny kedvezmÃ©nyt alkalmaztÃ¡k!
 
 
-Használja Ajándék utalvány
+HasznÃ¡lja AjÃ¡ndÃ©k utalvÃ¡ny
 
 
-Adja meg a ajándékutalvány kódot itt
+Adja meg a ajÃ¡ndÃ©kutalvÃ¡ny kÃ³dot itt
 
 
-Figyelmeztetés: Kérjük, írja be a kuponkódot!
+FigyelmeztetÃ©s: KÃ©rjÃ¼k, Ã­rja be a kuponkÃ³dot!
 
 
-<p> Gratulálunk! Az új fiók létrehozása sikeresen megtörtént! </ P> <p> Most már tagja%s leányvállalatai. </ P> <p> Ha bármilyen kérdése van a muködését ennek affiliate rendszer, kérjük, e-mail a bolt tulajdonosa. </ p> <p> A megerosíto küldtünk a megadott e-mail címre. Ha még nem kapta meg egy órán belül, kérjük, <a href="%s"> kapcsolatba velünk </a>. </ P>
+<p> GratulÃ¡lunk! Az Ãºj fiÃ³k lÃ©trehozÃ¡sa sikeresen megtÃ¶rtÃ©nt! </ P> <p> Most mÃ¡r tagja%s leÃ¡nyvÃ¡llalatai. </ P> <p> Ha bÃ¡rmilyen kÃ©rdÃ©se van a mukÃ¶dÃ©sÃ©t ennek affiliate rendszer, kÃ©rjÃ¼k, e-mail a bolt tulajdonosa. </ p> <p> A megerosÃ­to kÃ¼ldtÃ¼nk a megadott e-mail cÃ­mre. Ha mÃ©g nem kapta meg egy Ã³rÃ¡n belÃ¼l, kÃ©rjÃ¼k, <a href="%s"> kapcsolatba velÃ¼nk </a>. </ P>
 
 
-Rendelés azonosító
+RendelÃ©s azonosÃ­tÃ³
 
 
-Ügyfél
+ÃœgyfÃ©l
 
 
-%s jelenleg nem érheto el kell rendelni.
+%s jelenleg nem Ã©rheto el kell rendelni.
 
 
-Száma Termékek
+SzÃ¡ma TermÃ©kek
 
 
-Kapcsolódó termékek
+KapcsolÃ³dÃ³ termÃ©kek
 
 
-Kérjük, <a href="%s"> jelentkezned </a> vagy <a href="%s"> regisztrálj </a>, hogy vizsgálják felül
+KÃ©rjÃ¼k, <a href="%s"> jelentkezned </a> vagy <a href="%s"> regisztrÃ¡lj </a>, hogy vizsgÃ¡ljÃ¡k felÃ¼l
 
 
-hónap
+hÃ³nap
 
 
-%s minden%d%s (ek)%d kifizetés (ek)
+%s minden%d%s (ek)%d kifizetÃ©s (ek)
 
 
 nap
 
 
-héten
+hÃ©ten
 
 
-%s minden%d%s (k), amíg nem törli
+%s minden%d%s (k), amÃ­g nem tÃ¶rli
 
 
-%s minden%d%s (ek)%d kifizetés (ek), majd
+%s minden%d%s (ek)%d kifizetÃ©s (ek), majd
 
 
-Mennyiség
+MennyisÃ©g
 
 
-Fizetési Profil
+FizetÃ©si Profil
 
 
-év
+Ã©v
 
 
-fél hónapig
+fÃ©l hÃ³napig
 
 
-Nemzetközi Gazdaság
+NemzetkÃ¶zi GazdasÃ¡g
 
 
-Special Delivery Következo nap
+Special Delivery KÃ¶vetkezo nap
 
 
-Nemzetközi Szabvány
+NemzetkÃ¶zi SzabvÃ¡ny
 
 
-Másodosztályú Aláírt hozzászólás
+MÃ¡sodosztÃ¡lyÃº AlÃ¡Ã­rt hozzÃ¡szÃ³lÃ¡s
 
 
-Elso osztályú Aláírt hozzászólás
+Elso osztÃ¡lyÃº AlÃ¡Ã­rt hozzÃ¡szÃ³lÃ¡s
 
 
-Nemzetközi Lánctalpas
+NemzetkÃ¶zi LÃ¡nctalpas
 
 
-Nemzetközi Lánctalpas &Aláírták
+NemzetkÃ¶zi LÃ¡nctalpas &AlÃ¡Ã­rtÃ¡k
 
 
-A fájl sikeresen feltöltve!
+A fÃ¡jl sikeresen feltÃ¶ltve!
 
 
-Érvénytelen fájltípus!
+Ã‰rvÃ©nytelen fÃ¡jltÃ­pus!
 
 
-Fájlnév között kell lennie 3 és 64 karakter!
+FÃ¡jlnÃ©v kÃ¶zÃ¶tt kell lennie 3 Ã©s 64 karakter!
 
 
-Feltöltés szükséges!
+FeltÃ¶ltÃ©s szÃ¼ksÃ©ges!
 
 
-%s szükséges!
+%s szÃ¼ksÃ©ges!
 
 
-Felfüggesztett
+FelfÃ¼ggesztett
 
 
-Ismétlodo fizetési részletek
+IsmÃ©tlodo fizetÃ©si rÃ©szletek
 
 
-Ismétlodo fizetési törölték
+IsmÃ©tlodo fizetÃ©si tÃ¶rÃ¶ltÃ©k
 
 
-Nem ismétlodo kifizetések találtam
+Nem ismÃ©tlodo kifizetÃ©sek talÃ¡ltam
 
 
-Ismétlodo Kifizetések
+IsmÃ©tlodo KifizetÃ©sek
 
 
-Kiemelkedo fizetés
+Kiemelkedo fizetÃ©s
 
 
-Fizetési kimarad
+FizetÃ©si kimarad
 
 
 Return
 
 
-Lejárt
+LejÃ¡rt
 
 
-Függoben levo
+FÃ¼ggoben levo
 
 
-Nem tranzakciók erre a visszatéro profil
+Nem tranzakciÃ³k erre a visszatÃ©ro profil
 
 
-Törölt
+TÃ¶rÃ¶lt
 
 
-Fizetési mód:
+FizetÃ©si mÃ³d:
 
 
-Állapot
+Ãllapot
 
 
-Fiók
+FiÃ³k
 
 
 Profil ID:
 
 
-Akció
+AkciÃ³
 
 
-Kilátás
+KilÃ¡tÃ¡s
 
 
-Tranzakciók
+TranzakciÃ³k
 
 
-Ismétlodo fizetési
+IsmÃ©tlodo fizetÃ©si
 
 
-Felfüggesztett
+FelfÃ¼ggesztett
 
 
-Állapot:
+Ãllapot:
 
 
-Az inaktív
+Az inaktÃ­v
 
 
-Rendelés:
+RendelÃ©s:
 
 
-Folytatás
+FolytatÃ¡s
 
 
-Típus
+TÃ­pus
 
 
-Fizetés
+FizetÃ©s
 
 
-Törölt
+TÃ¶rÃ¶lt
 
 
-Termék:
+TermÃ©k:
 
 
-Mennyiség:
+MennyisÃ©g:
 
 
-Fizetési sikerült
+FizetÃ©si sikerÃ¼lt
 
 
-Alkotó:
+AlkotÃ³:
 
 
 Profil ID
 
 
-Akció
+AkciÃ³
 
 
-Nem sikerült törölni ismétlodo
+Nem sikerÃ¼lt tÃ¶rÃ¶lni ismÃ©tlodo
 
 
-Létrehozta
+LÃ©trehozta
 
 
-Termék
+TermÃ©k
 
 
-Kiemelkedo fizetési sikerült
+Kiemelkedo fizetÃ©si sikerÃ¼lt
 
 
 Hiba:%s
@@ -2074,61 +2074,61 @@ Hiba:%s
 Referencia:
 
 
-Létrehozta
+LÃ©trehozta
 
 
-Mennyiség
+MennyisÃ©g
 
 
-Aktív
+AktÃ­v
 
 
-Lejárt
+LejÃ¡rt
 
 
-Leírás:
+LeÃ­rÃ¡s:
 
 
-Felfüggesztett sikertelen átutalás
+FelfÃ¼ggesztett sikertelen Ã¡tutalÃ¡s
 
 
-Siker: API ülésén sikeresen elindult!
+Siker: API Ã¼lÃ©sÃ©n sikeresen elindult!
 
 
-Figyelmeztetés: Az IP:%s nem érhetik el ezt az API!
+FigyelmeztetÃ©s: Az IP:%s nem Ã©rhetik el ezt az API!
 
 
-Figyelmeztetés: Hibás API kulcs!
+FigyelmeztetÃ©s: HibÃ¡s API kulcs!
 
 
-Rendelés azonosító
+RendelÃ©s azonosÃ­tÃ³
 
 
-Dátum hozzáadva
+DÃ¡tum hozzÃ¡adva
 
 
-Méret
+MÃ©ret
 
 
-Név
+NÃ©v
 
 
-Töltés
+TÃ¶ltÃ©s
 
 
 (ha van)
 
 
-(Maestro és Solo kártyák esetén)
+(Maestro Ã©s Solo kÃ¡rtyÃ¡k esetÃ©n)
 
 
-Figyelmeztetés: Az Ön számlája meghaladta megengedett számát bejelentkezési kísérletek. Kérjük, próbálja újra 1 óra.
+FigyelmeztetÃ©s: Az Ã–n szÃ¡mlÃ¡ja meghaladta megengedett szÃ¡mÃ¡t bejelentkezÃ©si kÃ­sÃ©rletek. KÃ©rjÃ¼k, prÃ³bÃ¡lja Ãºjra 1 Ã³ra.
 
 
-Hitel / betéti kártya (First Data)
+Hitel / betÃ©ti kÃ¡rtya (First Data)
 
 
-Kártya használt:
+KÃ¡rtya hasznÃ¡lt:
 
 
 American Express
@@ -2137,70 +2137,70 @@ American Express
 Diners
 
 
-Kártya biztonsági kód nem egyezik
+KÃ¡rtya biztonsÃ¡gi kÃ³d nem egyezik
 
 
-Kártya biztonsági kód mérkozés
+KÃ¡rtya biztonsÃ¡gi kÃ³d mÃ©rkozÃ©s
 
 
-Egy üres választ kell adnia, hogy nincs kód küldték, és hogy nem volt jele annak, hogy a kód nem volt jelen a kártyán.
+Egy Ã¼res vÃ¡laszt kell adnia, hogy nincs kÃ³d kÃ¼ldtÃ©k, Ã©s hogy nem volt jele annak, hogy a kÃ³d nem volt jelen a kÃ¡rtyÃ¡n.
 
 
-Ref szám:
+Ref szÃ¡m:
 
 
-Kibocsátó nem tanúsított, és / vagy nem nyújtott titkosítási kulcsok
+KibocsÃ¡tÃ³ nem tanÃºsÃ­tott, Ã©s / vagy nem nyÃºjtott titkosÃ­tÃ¡si kulcsok
 
 
-Merchant jelezte, hogy a kártya biztonsági kód nincs jelen a kártya
+Merchant jelezte, hogy a kÃ¡rtya biztonsÃ¡gi kÃ³d nincs jelen a kÃ¡rtya
 
 
-Kártya típusa:
+KÃ¡rtya tÃ­pusa:
 
 
 Nem feldolgozott
 
 
-Nincs válasz a hitelkártya-szövetség kapta
+Nincs vÃ¡lasz a hitelkÃ¡rtya-szÃ¶vetsÃ©g kapta
 
 
-Kártya kibocsátója nem ellenorzi az AVS információk
+KÃ¡rtya kibocsÃ¡tÃ³ja nem ellenorzi az AVS informÃ¡ciÃ³k
 
 
 Mastercard
 
 
-Kártya kibocsátója megerosítette, hogy az irányítószámot mérkozések nyilvántartásukban. A Kibocsátó nem ellenorzi az utcán
+KÃ¡rtya kibocsÃ¡tÃ³ja megerosÃ­tette, hogy az irÃ¡nyÃ­tÃ³szÃ¡mot mÃ©rkozÃ©sek nyilvÃ¡ntartÃ¡sukban. A KibocsÃ¡tÃ³ nem ellenorzi az utcÃ¡n
 
 
-Kártya kibocsátója megerosítette, hogy utcai mérkozések nyilvántartásukban, de az irányítószámot nem egyezik
+KÃ¡rtya kibocsÃ¡tÃ³ja megerosÃ­tette, hogy utcai mÃ©rkozÃ©sek nyilvÃ¡ntartÃ¡sukban, de az irÃ¡nyÃ­tÃ³szÃ¡mot nem egyezik
 
 
-Kártya kibocsátója megerosítette, hogy utcai mérkozések nyilvántartásukban. A Kibocsátó nem ellenorzi az irányítószámot
+KÃ¡rtya kibocsÃ¡tÃ³ja megerosÃ­tette, hogy utcai mÃ©rkozÃ©sek nyilvÃ¡ntartÃ¡sukban. A KibocsÃ¡tÃ³ nem ellenorzi az irÃ¡nyÃ­tÃ³szÃ¡mot
 
 
-Nincs cím adatok vagy cím nem ellenorzi a kártya kibocsátója
+Nincs cÃ­m adatok vagy cÃ­m nem ellenorzi a kÃ¡rtya kibocsÃ¡tÃ³ja
 
 
-Emlékezteto a kártya adatait
+EmlÃ©kezteto a kÃ¡rtya adatait
 
 
-Mindkét utca és irányítószám nem egyezik a kártya kibocsátója bejegyzések
+MindkÃ©t utca Ã©s irÃ¡nyÃ­tÃ³szÃ¡m nem egyezik a kÃ¡rtya kibocsÃ¡tÃ³ja bejegyzÃ©sek
 
 
-Nem sikerült feldolgozni a fizetési, próbáld újra
+Nem sikerÃ¼lt feldolgozni a fizetÃ©si, prÃ³bÃ¡ld Ãºjra
 
 
 Maestro UK / Solo
 
 
-Jóváhagyási kód:
+JÃ³vÃ¡hagyÃ¡si kÃ³d:
 
 
-Cím ellenorzés:
+CÃ­m ellenorzÃ©s:
 
 
-Kártya kibocsátója megerosítette, hogy az irányítószámot mérkozések nyilvántartásukban de utcai nem egyezik
+KÃ¡rtya kibocsÃ¡tÃ³ja megerosÃ­tette, hogy az irÃ¡nyÃ­tÃ³szÃ¡mot mÃ©rkozÃ©sek nyilvÃ¡ntartÃ¡sukban de utcai nem egyezik
 
 
 Mester
@@ -2209,180 +2209,180 @@ Mester
 Visa (Credit / Debit / Electron / Delta)
 
 
-Kártya kibocsátója megerosítette, hogy utcai és irányítószám meccset nyilvántartásukban
+KÃ¡rtya kibocsÃ¡tÃ³ja megerosÃ­tette, hogy utcai Ã©s irÃ¡nyÃ­tÃ³szÃ¡m meccset nyilvÃ¡ntartÃ¡sukban
 
 
-Folytatás
+FolytatÃ¡s
 
 
-Új kártya
+Ãšj kÃ¡rtya
 
 
-Processzor kód:
+Processzor kÃ³d:
 
 
-Biztonsági kód:
+BiztonsÃ¡gi kÃ³d:
 
 
-Teljes választ kód:
+Teljes vÃ¡laszt kÃ³d:
 
 
-Hitelkártya / bankkártya (SagePay)
+HitelkÃ¡rtya / bankkÃ¡rtya (SagePay)
 
 
-Ne feledje, a kártya adatait késobbi használatra
+Ne feledje, a kÃ¡rtya adatait kÃ©sobbi hasznÃ¡latra
 
 
-Volt egy hiba történt a tranzakció.
+Volt egy hiba tÃ¶rtÃ©nt a tranzakciÃ³.
 
 
-Hiba történt a kérés teljesítése.
+Hiba tÃ¶rtÃ©nt a kÃ©rÃ©s teljesÃ­tÃ©se.
 
 
-Válasszon egy meglévo kártyát
+VÃ¡lasszon egy meglÃ©vo kÃ¡rtyÃ¡t
 
 
- %s kifizetések
+Â %s kifizetÃ©sek
 
 
-Kártya Név:
+KÃ¡rtya NÃ©v:
 
 
-Kártya típusa:
+KÃ¡rtya tÃ­pusa:
 
 
 %s minden%s%s
 
 
-Kártya Részletek
+KÃ¡rtya RÃ©szletek
 
 
-Létezo
+LÃ©tezo
 
 
-Napirendi%s Sorszám:%s
+Napirendi%s SorszÃ¡m:%s
 
 
-Lejárat:
+LejÃ¡rat:
 
 
-Új vagy meglévo kártyát:
+Ãšj vagy meglÃ©vo kÃ¡rtyÃ¡t:
 
 
-Kattintson <a href="%s"> ide </a> a folytatáshoz
+Kattintson <a href="%s"> ide </a> a folytatÃ¡shoz
 
 
-A fizetési engedélyezték.
+A fizetÃ©si engedÃ©lyeztÃ©k.
 
 
-Új
+Ãšj
 
 
-Hiba történt a kérés teljesítése a bank.
+Hiba tÃ¶rtÃ©nt a kÃ©rÃ©s teljesÃ­tÃ©se a bank.
 
 
-Az Ön fizetését elutasították.
+Az Ã–n fizetÃ©sÃ©t elutasÃ­tottÃ¡k.
 
 
-%s minden%s%s%s kifizetések majd
+%s minden%s%s%s kifizetÃ©sek majd
 
 
-Utolsó számjegyek:
+UtolsÃ³ szÃ¡mjegyek:
 
 
-Hash ellenorzés sikertelen. Ne próbálja meg a befizetés és a kifizetés állapota ismeretlen. Kérjük, lépjen kapcsolatba a kereskedo.
+Hash ellenorzÃ©s sikertelen. Ne prÃ³bÃ¡lja meg a befizetÃ©s Ã©s a kifizetÃ©s Ã¡llapota ismeretlen. KÃ©rjÃ¼k, lÃ©pjen kapcsolatba a kereskedo.
 
 
-Figyelmeztetés: Szállítási módszer szükséges!
+FigyelmeztetÃ©s: SzÃ¡llÃ­tÃ¡si mÃ³dszer szÃ¼ksÃ©ges!
 
 
-Siker: Szállítási módszerrel állítottak!
+Siker: SzÃ¡llÃ­tÃ¡si mÃ³dszerrel Ã¡llÃ­tottak!
 
 
-Válasszon ki egy országot!
+VÃ¡lasszon ki egy orszÃ¡got!
 
 
-Cím 1 között kell lennie 3 és 128 karakter!
+CÃ­m 1 kÃ¶zÃ¶tt kell lennie 3 Ã©s 128 karakter!
 
 
-Vezetéknév között kell lennie 1 és 32 karakter!
+VezetÃ©knÃ©v kÃ¶zÃ¶tt kell lennie 1 Ã©s 32 karakter!
 
 
-Kérjük, válasszon régiót / állam!
+KÃ©rjÃ¼k, vÃ¡lasszon rÃ©giÃ³t / Ã¡llam!
 
 
-Figyelmeztetés: nincs engedélye hozzá az API!
+FigyelmeztetÃ©s: nincs engedÃ©lye hozzÃ¡ az API!
 
 
-Város között kell lennie 3 és 128 karakter!
+VÃ¡ros kÃ¶zÃ¶tt kell lennie 3 Ã©s 128 karakter!
 
 
-Siker: Szállítási cím beállítva!
+Siker: SzÃ¡llÃ­tÃ¡si cÃ­m beÃ¡llÃ­tva!
 
 
-Irányítószámmal között kell lennie a 2. és 10 karaktert ebben az országban!
+IrÃ¡nyÃ­tÃ³szÃ¡mmal kÃ¶zÃ¶tt kell lennie a 2. Ã©s 10 karaktert ebben az orszÃ¡gban!
 
 
-Utónevet kell az 1 és 32 karakter!
+UtÃ³nevet kell az 1 Ã©s 32 karakter!
 
 
-Figyelmeztetés: Nincs Szállítási lehetoségek állnak rendelkezésre!
+FigyelmeztetÃ©s: Nincs SzÃ¡llÃ­tÃ¡si lehetosÃ©gek Ã¡llnak rendelkezÃ©sre!
 
 
-Figyelmeztetés: Szállítási cím szükséges!
+FigyelmeztetÃ©s: SzÃ¡llÃ­tÃ¡si cÃ­m szÃ¼ksÃ©ges!
 
 
-%s szükséges!
+%s szÃ¼ksÃ©ges!
 
 
-Karbantartás
+KarbantartÃ¡s
 
 
-Írja be a kupon itt:
+Ãrja be a kupon itt:
 
 
-Bevásárlókocsi
+BevÃ¡sÃ¡rlÃ³kocsi
 
 
-Mégsem kifizetések
+MÃ©gsem kifizetÃ©sek
 
 
-Ismétlodo elem
+IsmÃ©tlodo elem
 
 
-Szállítási szolgáltatást frissítve
+SzÃ¡llÃ­tÃ¡si szolgÃ¡ltatÃ¡st frissÃ­tve
 
 
-Tovább a PayPal
+TovÃ¡bb a PayPal
 
 
 Hiba
 
 
-Erosítse
+ErosÃ­tse
 
 
 %s minden%s%s
 
 
-Frissítés hajózási
+FrissÃ­tÃ©s hajÃ³zÃ¡si
 
 
-%s minden%s%s%s kifizetések majd
+%s minden%s%s%s kifizetÃ©sek majd
 
 
-Megrendelés megerosítése
+MegrendelÃ©s megerosÃ­tÃ©se
 
 
 Add
 
 
- %s kifizetések
+Â %s kifizetÃ©sek
 
 
-A befizetés nem túl sokszor
+A befizetÃ©s nem tÃºl sokszor
 
 
-Folytatás
+FolytatÃ¡s
 
 
