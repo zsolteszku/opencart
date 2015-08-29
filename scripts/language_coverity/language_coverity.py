@@ -13,15 +13,19 @@ import install_package
 from install_package import PackageInfo
 import codecs
 
-install_package.install_if_necessary(
-    PackageInfo("setuptools", "https://pypi.python.org/packages/source/s/setuptools/setuptools-15.1.tar.gz"))
-install_package.install_if_necessary(
-    PackageInfo("colorama", "https://pypi.python.org/packages/source/c/colorama/colorama-0.3.3.tar.gz"))
-install_package.install_if_necessary(
-    PackageInfo("colorlog", "https://pypi.python.org/packages/source/c/colorlog/colorlog-2.6.0.tar.gz"))
+install_package.install_packages([ PackageInfo("setuptools", "https://pypi.python.org/packages/source/s/setuptools/setuptools-15.1.tar.gz"),
+             PackageInfo("colorama", "https://pypi.python.org/packages/source/c/colorama/colorama-0.3.3.tar.gz"),
+             PackageInfo("colorlog", "https://pypi.python.org/packages/source/c/colorlog/colorlog-2.6.0.tar.gz"),
+             PackageInfo("six", "https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz#md5=476881ef4012262dfc8adc645ee786c4"),
+             PackageInfo("oauth2client", "https://pypi.python.org/packages/source/o/oauth2client/oauth2client-1.4.12.tar.gz#md5=829a05a559b43215d67947aaff9c11b5"),
+             PackageInfo("httplib2", "https://pypi.python.org/packages/source/h/httplib2/httplib2-0.9.1.tar.gz#md5=c49590437e4c5729505d034cd34a8528"),
+             PackageInfo("uritempalte", "https://pypi.python.org/packages/source/u/uritemplate/uritemplate-0.6.tar.gz#md5=ecfc1ea8d62c7f2b47aad625afae6173"),
+             PackageInfo("apiclient", "https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.4.1.tar.gz")])
+
+from apiclient.http import BatchHttpRequest
 
 import logging
-from colorlog import ColoredFormatter
+from colorlog import ColoredFormatter  
 from colorama import init, AnsiToWin32
 
 init(wrap=False)

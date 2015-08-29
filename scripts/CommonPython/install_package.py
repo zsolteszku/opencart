@@ -1,4 +1,4 @@
-import os
+﻿import os
 import sys
 import urllib2
 import shutil
@@ -99,4 +99,11 @@ def install_if_necessary(package_info):
     if not os.path.exists(path_to_package):
         print "Not found {}, so downloading and installing it!".format(package_info.package_name)
         download_and_install(package_info)
+    if os.path.exists(os.path.join(path_to_package, "python2")):
+        path_to_package = os.path.join(path_to_package, "python2")
     sys.path.append(path_to_package)
+
+
+def install_packages(package_infos):
+    for package_info in package_infos:
+        install_if_necessary(package_info)
