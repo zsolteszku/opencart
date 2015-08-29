@@ -98,28 +98,31 @@ class LanguageValue:
     def add_value(self, file, value):
         self.values.append(LanguageEntity(file, value))
 
-    def get_defaults(self, google_translate):
-        if not google_translate:
-            return ("There are value(s) for key(\"{}\") that already defined, you can select one of them:\n\t0. Create new value\n".format(self.key),1)
+    def get_defaults(self, lang_error):
+        if not lang_error.google_translate:
+            return ("There are value(s) for key(\"{}\") that already defined, you can select one of them(Current english is \"{}\"):\n\t0. Create new value\n".format(self.key, lang_error.reference_value),1)
         else:
-            return ("There are value(s) for key(\"{}\") that already defined, you can select one of them:\n\t0. Create new value\n\t1. Google Translate: {}\n".format(self.key, google_translate),2)
+            return ("There are value(s) for key(\"{}\") that already defined, you can select one of them(Current english is \"{}\"):\n\t0. Create new value\n\t1. Google Translate: {}\n".format(self.key, lang_error.reference_value, lang_error.google_translate),2)
 
-    def get_prompt(self, google_translate = None):
-        str, idx = self.get_defaults(google_translate)
+    def get_prompt(self, lang_error):
+        str, idx = self.get_defaults(lang_error)
         for entity in self.values:
             str += "\t{}. {}\n".format(idx, entity)
             idx += 1
         return str + "Select a number: "
 
-    def get_good(self, index, google_translate = None):
-        if index <= len(self.values) + (1 if google_translate else 0):
+    def get_len(self, lang_error):
+        return len(self.values) + (1 if lang_error.google_translate else 0)
+
+    def get_good(self, index, lang_error):
+        if index <= self.get_len(lang_error):
             if index == 0:
                 return get_new_key("Please give me the new value: ")
-            elif index == 1 and google_translate is not None:
+            elif index == 1 and lang_error.google_translate is not None:
                 #google_translate
-                return google_translate
+                return lang_error.google_translate
             else:
-                return self.values[index- (2 if google_translate else 1) ].value
+                return self.values[index- (2 if lang_error.google_translate else 1) ].value
         return None
 
     def contains(self, value):
@@ -179,7 +182,7 @@ def fix_errors():
             check_file.seek(0)
             check_file.write(u"<? php\n//Processed with language_coverity script")
             for key in file_error.check_keys:
-                write_pair(check_file, key, check_keys[key])
+                write_pair(check_file, key, file_error.check_keys[key])
             try:
                 for lang_error in file_error.lang_errors:
                     key = lang_error.key
@@ -187,12 +190,12 @@ def fix_errors():
                     good = None
                     if key in all_check_keys:
                         while good is None:
-                            sys.stdout.write("{} > {}".format(check_file.name, all_check_keys[key].get_prompt()))
+                            sys.stdout.write("{} > {}".format(check_file.name, all_check_keys[key].get_prompt(lang_error)))
                             response = sys.stdin.readline().strip()
                             if response.isdigit():
-                                good = all_check_keys[key].get_good(int(response), lang_error.google_translate)
+                                good = all_check_keys[key].get_good(int(response), lang_error)
                             if good is None:
-                                err("Wrong response got. Please select a number between 0 and {}!".format(len(all_check_keys[key].values)))
+                                err("Wrong response got. Please select a number between 0 and {}!".format(all_check_keys[key].get_len(lang_error)))
                     else:
                         if lang_error.google_translate is None:
                             good = get_new_key("{} > Key for ['{}'](English is: \"{}\"): ".format(check_file.name, key, reference_value))
@@ -205,10 +208,9 @@ def fix_errors():
                     elif good == "SKIP":
                         continue
                     write_pair(check_file, key, good)
-            except:
+            finally:
                 check_file.write(u"\n?>\n")
                 check_file.close()
-                raise
 
 def parse_file_pair(reference_filepath, check_filepath):
     global key_errors, total_reference_keys, total_check_keys, all_reference_keys, all_check_keys
