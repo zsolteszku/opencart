@@ -59,6 +59,10 @@ def err(msg):
     logger.error(msg)
     error_file.write(msg+"\n")
 
+def wr(msg):
+    print(msg)
+    error_file.write(msg+"\n")
+
 def get_keys(file):
     global parsing_error
     result = dict()
@@ -120,6 +124,20 @@ class LanguageValue:
             str += entity.value + ", "
         return str[:-2] + "]" 
 
+class LanguageError:
+
+    def __init__(self, check_filename, reference_filename, key, reference_value):
+        self.check_filename = check_filename
+        self.reference_filename = reference_filename
+        self.key = key
+        self.reference_value = reference_value
+
+class FileError:
+
+    def __init__(self, check_keys, lang_errors):
+        self.check_keys = check_keys
+        self.lang_errors = lang_errors
+
 def add_to_all_dictionary(all_dic, dic, file):
     for key in dic:
         if key in ignored_keys:
@@ -139,27 +157,19 @@ def get_new_key(msg):
     sys.stdout.write(msg)
     return sys.stdin.readline().strip()
 
-def parse_file_pair(reference_filepath, check_filepath, add_to_all):
-    global key_errors, interactive, total_reference_keys, total_check_keys, all_reference_keys, all_check_keys
-    with codecs.open(reference_filepath, "r", "utf-8") as reference_file, codecs.open(check_filepath, "r", "utf-8") as check_file:
-        reference_keys = get_keys(reference_file)
-        check_keys = get_keys(check_file)
-        if add_to_all:
-            add_to_all_dictionary(all_reference_keys, reference_keys, reference_filepath)
-            add_to_all_dictionary(all_check_keys, check_keys, check_filepath)
-            return
-    total_reference_keys+=len(reference_keys)
-    total_check_keys +=len(check_keys)
-    try:
-        if interactive:
-            check_file = codecs.open(check_filepath, "w", "utf-8")
+def fix_errors():
+    global key_errors, all_check_keys
+    for check_filepath in key_errors:
+        with codecs.open(check_filepath, "w", "utf-8") as check_file:
+            file_error = key_errors[check_filepath]
             check_file.seek(0)
             check_file.write(u"//Processed with language_coverity script")
-            for key in check_keys:
+            for key in file_error.check_keys:
                 write_pair(check_file, key, check_keys[key])
-        for key in reference_keys:
-            if not key in check_keys:
-                if interactive:
+            try:
+                for lang_error in file_error.lang_errors:
+                    key = lang_error.key
+                    reference_value = lang_error.reference_value
                     good = ""
                     if key in all_check_keys:
                         ok = False
@@ -176,28 +186,39 @@ def parse_file_pair(reference_filepath, check_filepath, add_to_all):
                                     ok = True
                                     break
                             err("Wrong response got. Please select a number between 0 and {}!".format(len(all_check_keys[key].values)))
-                                
                     else:
-                        good = get_new_key("{} > Key for ['{}'](English is: \"{}\"): ".format(check_file.name, key, reference_keys[key]))
+                        good = get_new_key("{} > Key for ['{}'](English is: \"{}\"): ".format(check_file.name, key, reference_value))
                     write_pair(check_file, key, good)
-                else:
-                    key_errors += 1
-                    err("Key error. Not found key: {} in file: {}".format(key, check_file.name))
-    except:
-        if interactive:
-            check_file.write(u"\n?>\n")
-            check_file.close()
-            raise
+            except:
+                check_file.write(u"\n?>\n")
+                check_file.close()
+                raise
 
-def parse_files(add_to_all):
-    if add_to_all:
-        print("Parsing all lang files...")
+def parse_file_pair(reference_filepath, check_filepath):
+    global key_errors, total_reference_keys, total_check_keys, all_reference_keys, all_check_keys
+    with codecs.open(reference_filepath, "r", "utf-8") as reference_file, codecs.open(check_filepath, "r", "utf-8") as check_file:
+        reference_keys = get_keys(reference_file)
+        check_keys = get_keys(check_file)
+        add_to_all_dictionary(all_reference_keys, reference_keys, reference_filepath)
+        add_to_all_dictionary(all_check_keys, check_keys, check_filepath)
+    total_reference_keys+=len(reference_keys)
+    total_check_keys +=len(check_keys)
+    for key in reference_keys:
+        if not key in check_keys:
+            lang_error = LanguageError(check_filepath, reference_filepath, key, reference_keys[key])
+            if not check_filepath in key_errors:
+                key_errors[check_filepath] = FileError(check_keys, [lang_error])
+            else:
+                key_errors[check_filepath].lang_errors.append(lang_error)
+    
+
+def parse_files():
+    print("Parsing all lang files...")
     global reference_path, check_path, total_files, file_errors, reference_lang, check_lang
     for root, dirs, filenames in os.walk(reference_path):
         relroot = os.path.relpath(root, reference_path)
         for filename in filenames:
-            if not add_to_all:
-                total_files += 1
+            total_files += 1
             logger.debug("root: {} filename: {}".format(relroot, filename))
             if filename == "{}.php".format(reference_lang):
                 check_filename = "{}.php".format(check_lang)
@@ -206,15 +227,19 @@ def parse_files(add_to_all):
             check_filepath = os.path.abspath(os.path.join(check_path, relroot, check_filename))
             if not os.path.exists(check_filepath):
                 logger.error("Cannot find file but in the reference its exists: {}. Will create it!".format(check_filepath))
-                if not add_to_all:
-                    file_errors += 1
+                file_errors += 1
                 if not os.path.exists(os.path.dirname(check_filepath)):
                     logger.error("Cannot find dir but in the reference its exists: {}. Will create it!".format(os.path.dirname(check_filepath)))
                     os.makedirs(os.path.dirname(check_filepath))
                 codecs.open(check_filepath, "a", "utf-8").close()
-            parse_file_pair(os.path.join(root, filename), check_filepath, add_to_all)
+            parse_file_pair(os.path.join(root, filename), check_filepath)
                 
-                
+def calcualte_key_errors():
+     global key_errors
+     key_errors_size = 0
+     for file in key_errors:
+         key_errors_size += len(key_errors[file].lang_errors)
+     return key_errors_size    
 
 def main():
     parser = ExtendedArgumentParser(description="LanguageCoverity for OpenCart")
@@ -236,16 +261,18 @@ def main():
     check_path = os.path.abspath(os.path.join(parsed.path_to_langs, check_lang))
     if not os.path.isdir(reference_path) or not os.path.isdir(check_path):
         raise Exception("Cannot find {} or {} lang in path {}".format(reference_lang, check_lang, parsed.path_to_langs))
-    key_errors=0
+    key_errors = dict()
     file_errors=0
     total_files=0
     parsing_error=0
     total_reference_keys=0
     total_check_keys=0
     interactive = parsed.interactive
-    parse_files(True)
-    parse_files(False)
-    err("TotalReferenceKeys: {}\nTotalCheckKeys: {}\nTotalFiles: {}\nFileErrors: {}\nKeyErrors: {}\nParsingError: {}".format(total_reference_keys,total_check_keys,total_files, file_errors, key_errors, parsing_error))
+    parse_files()
+    if interactive:
+        fix_errors()
+    key_errors_size = calcualte_key_errors()
+    wr("TotalReferenceKeys: {}\nTotalCheckKeys: {}\nTotalFiles: {}\nFileErrors: {}\nKeyErrors: {}\nParsingError: {}".format(total_reference_keys,total_check_keys,total_files, file_errors, key_errors_size, parsing_error))
            
 
 if __name__ == "__main__":
