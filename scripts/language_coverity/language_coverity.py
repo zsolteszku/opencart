@@ -254,8 +254,20 @@ def calcualte_key_errors():
          key_errors_size += len(key_errors[file].lang_errors)
      return key_errors_size    
 
+def calcualte_key_errors_characters():
+     global key_errors
+     characters = 0
+     for file in key_errors:
+         for error in key_errors[file].lang_errors:
+             characters += len(error.reference_value)
+     return characters    
+
 def fetch_google_translate():
-     print("Fetching google translates...")
+    print("Fetching google translates...")
+    global key_errors, output_file
+    for file in key_errors:
+        for error in key_errors[file].lang_errors:
+            output_file.write("{}\n\n\n".format(error.reference_value).replace("\\'", "'").replace("\\\"", "\""))
 
 
 def main():
@@ -264,14 +276,16 @@ def main():
     parser.add_argument("-c", "--check_lang", required=True, help="Check lang")
     parser.add_argument("-r", "--reference_lang", help="Reference lang")
     parser.add_argument("-e", "--error_file", default="error.txt", type=argparse.FileType('w'), help="ErrorFile")
+    parser.add_argument("-o", "--output_file", default="output.txt", type=argparse.FileType("w"))
     parser.add_argument("-i", "--interactive", action="store_true")
     parsed = parser.parse_args()
     global key_errors, file_errors, total_files, parsing_error, error_file, total_reference_keys, total_check_keys, interactive
     global reference_lang, check_lang, reference_path, check_path
-    global all_reference_keys, all_check_keys
+    global all_reference_keys, all_check_keys, output_file
     all_reference_keys = dict()
     all_check_keys = dict()
     error_file = parsed.error_file
+    output_file = parsed.output_file
     reference_lang = parsed.reference_lang
     check_lang = parsed.check_lang
     reference_path = os.path.abspath(os.path.join(parsed.path_to_langs, reference_lang))
@@ -286,11 +300,12 @@ def main():
     total_check_keys=0
     interactive = parsed.interactive
     parse_files()
+    fetch_google_translate()
     if interactive:
-        fetch_google_translate()
         fix_errors()
     key_errors_size = calcualte_key_errors()
-    wr("TotalReferenceKeys: {}\nTotalCheckKeys: {}\nTotalFiles: {}\nFileErrors: {}\nKeyErrors: {}\nParsingError: {}".format(total_reference_keys,total_check_keys,total_files, file_errors, key_errors_size, parsing_error))
+    characters = calcualte_key_errors_characters()
+    wr("TotalReferenceKeys: {}\nTotalCheckKeys: {}\nTotalFiles: {}\nFileErrors: {}\nKeyErrors: {}\nParsingError: {}\nTotal translated characters: {}".format(total_reference_keys,total_check_keys,total_files, file_errors, key_errors_size, parsing_error, characters))
            
 
 if __name__ == "__main__":

@@ -1,0 +1,2388 @@
+Language
+
+
+Warning: You do not have permission to access the API!
+
+
+Success: Your currency has been changed!
+
+
+Warning: Currency code is invalid!
+
+
+Please enter your house number.
+
+
+Please enter your Company's registration number
+
+
+Please note that delivery can only take place to the registered address when paying with Klarna.
+
+
+<span id="klarna_invoice_toc"></span><script type="text/javascript">var terms = new Klarna.Terms.Invoice({el: 'klarna_invoice_toc', eid: '%s', country: '%s'});</script>
+
+
+Please enter your Social Security number here.
+
+
+<span id="klarna_invoice_toc"></span> (+%s)<script type="text/javascript">var terms = new Klarna.Terms.Invoice({el: 'klarna_invoice_toc', eid: '%s', country: '%s', charge: %s});</script>
+
+
+Please enter your phone number.
+
+
+Please submit your house extension here. E.g. A, B, C, Red, Blue ect.
+
+
+Credit or Debit Card
+
+
+Could not connect to PayPal. Please contact the shop's administrator for assistance or choose a different payment method.
+
+
+Creating a secure connection...
+
+
+Paid on Amazon
+
+
+Shipping
+
+
+Total
+
+
+Tax
+
+
+Gift wrap
+
+
+Shipping tax
+
+
+Sub-total
+
+
+Gift wrap tax
+
+
+You have successfully modified customers
+
+
+E-Mail Address does not appear to be valid!
+
+
+Telephone must be between 3 and 32 characters!
+
+
+Last Name must be between 1 and 32 characters!
+
+
+Warning: You do not have permission to access the API!
+
+
+First Name must be between 1 and 32 characters!
+
+
+%s required!
+
+
+Tag - 
+
+
+Warning: You do not have permission to access the API!
+
+
+Success: Your coupon discount has been applied!
+
+
+Warning: Coupon is either invalid, expired or reached it's usage limit!
+
+
+Credit or Debit Card (Processed securely by PayPal)
+
+
+Card Owner:
+
+
+Card Type:
+
+
+Warning: A general problem has occurred with the transaction. Please try again.
+
+
+Card Issue Number:
+
+
+Please wait!
+
+
+Warning: All payment information fields are required.
+
+
+Card Security Code (CVV2):
+
+
+Warning: Payment module configuration error. Please verify the login credentials.
+
+
+(if available)
+
+
+Warning: This transaction has been declined. Please try again.
+
+
+Warning: The provided credit card information is invalid. Please try again.
+
+
+Card Number:
+
+
+Card Expiry Date:
+
+
+Card Valid From Date:
+
+
+(for Maestro and Solo cards only)
+
+
+Credit Card Details
+
+
+Warning: A match of the Payment Address City, State, and Postal Code failed. Please try again.
+
+
+Currency
+
+
+Existing
+
+
+Card Verification Code (CVC)
+
+
+Card has been successfully removed
+
+
+Remember Card Details
+
+
+Choose an Existing Card
+
+
+There are an error processing your order. Please contact the shop administrator for help.
+
+
+New
+
+
+ for %s payments
+
+
+Delete Card
+
+
+Card Name: 
+
+
+Card Type: 
+
+
+Expiry: 
+
+
+%s every %s %s
+
+
+There are an error removing your card. Please contact the shop administrator for help.
+
+
+%s every %s %s for %s payments then 
+
+
+Last Digits: 
+
+
+New or Existing Card: 
+
+
+Card Details
+
+
+Are you sure you wish to delete this card
+
+
+Checkout
+
+
+Failed Payment
+
+
+Failed Payment!
+
+
+Shopping Cart
+
+
+%s required!
+
+
+Credit / Debit Card / Paypal / Wallet (G2APay)
+
+
+On our eBay store
+
+
+Warning: Please enter the amount of reward points to use!
+
+
+Warning: You don't have %s reward points!
+
+
+Warning: You do not have permission to access the API!
+
+
+Success: Your reward points discount has been applied!
+
+
+Warning: The maximum number of points that can be applied is %s!
+
+
+Credit / Debit card
+
+
+Please try again later or use a different payment method.
+
+
+Postcode check: %s
+
+
+Authorisation code: %s
+
+
+Your bank has declined the transaction. Please use a different payment method.
+
+
+CVV2 check: %s
+
+
+Card details
+
+
+Matched
+
+
+Processing your payment
+
+
+Not authenticated
+
+
+Authenticated
+
+
+Not given
+
+
+Not matched
+
+
+Could not complete transaction. Please try again later or use a different payment method.
+
+
+Attempted but not completed
+
+
+Could not process the payment. Please check the details you provided.
+
+
+Card number
+
+
+Card type
+
+
+Security Code (CVV2)
+
+
+Confirm
+
+
+Not checked
+
+
+3D Secure: %s
+
+
+Unable to perform
+
+
+Address check: %s
+
+
+Expiry date
+
+
+Ex Tax:
+
+
+Comments
+
+
+<p>Your enquiry has been successfully sent to the store owner!</p>
+
+
+Opening Times
+
+
+Our Stores
+
+
+Paid on Amazon US
+
+
+Shipping
+
+
+Total
+
+
+Tax
+
+
+Gift wrap
+
+
+Shipping tax
+
+
+Sub-total
+
+
+Gift wrap tax
+
+
+Recurring payments
+
+
+Reward Points
+
+
+year
+
+
+%s required!
+
+
+month
+
+
+%s every %d %s(s) for %d payment(s)
+
+
+day
+
+
+week
+
+
+%s every %d %s(s) until canceled
+
+
+Payment Profile
+
+
+Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+
+
+%s every %d %s(s) for %d payment(s) then
+
+
+Recurring Item
+
+
+half-month
+
+
+Choose Address
+
+
+Ex Tax:
+
+
+You have a new product review waiting.
+
+
+Product: %s
+
+
+Reviewer: %s
+
+
+Rating: %s
+
+
+%s - Product Review
+
+
+Review Text:
+
+
+New Affiliate
+
+
+Your total amount of commission is now %s.
+
+
+Telephone:
+
+
+Order ID:
+
+
+Firstname:
+
+
+You have received %s commission!
+
+
+Your account has now been created and you can log in by using your e-mail address and password by visiting our website or at the following URL:
+
+
+A new affiliate has signed up:
+
+
+Web Site:
+
+
+Company:
+
+
+Store:
+
+
+E-Mail:
+
+
+Lastname:
+
+
+%s - Affiliate Commission
+
+
+Please enter your house number.
+
+
+Please enter your Company's registration number
+
+
+Please note that delivery can only take place to the registered address when paying with Klarna.
+
+
+<span id="klarna_account_toc"></span><script type="text/javascript">var terms = new Klarna.Terms.Account({el: 'klarna_account_toc', eid: '%s', country: '%s'});</script>
+
+
+Please enter your Social Security number here.
+
+
+Please enter your phone number.
+
+
+Please submit your house extension here. E.g. A, B, C, Red, Blue ect.
+
+
+Downloads
+
+
+Register
+
+
+Transactions
+
+
+Categories
+
+
+Login
+
+
+Logout
+
+
+Show All
+
+
+Order History
+
+
+Shipping
+
+
+Discount
+
+
+Total
+
+
+Tax
+
+
+Sub-total
+
+
+Please select a delivery address
+
+
+Your order was successfully placed. Order details are below
+
+
+Login and Pay with Amazon
+
+
+There are no shipping options to the selected address. Please select a different shipping address.
+
+
+There was an error retrieving your address from Amazon. Please contact the shop administrator for help.
+
+
+Confirm
+
+
+Login failed: %s account email address did not match Amazon account email address
+
+
+Login failed
+
+
+Order summary
+
+
+Please select a payment method
+
+
+Please select a payment method
+
+
+Back
+
+
+Please choose a delivery address
+
+
+There was an error processing your order. Please contact the shop administrator for help.
+
+
+Taxes / Other handling fees
+
+
+Your order has been placed!
+
+
+Please select a shipping method
+
+
+Coupon
+
+
+Minimum order amount for Login and Pay with Amazon is %s!
+
+
+Enter your coupon code here. If you don't have one, leave it empty.
+
+
+Cart
+
+
+Login and Pay with Amazon
+
+
+Continue
+
+
+Search
+
+
+Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+
+
+Credit Card / Debit Card (BluePay)
+
+
+Remember Card Details
+
+
+There was an error processing your transaction - 
+
+
+State
+
+
+Zipcode
+
+
+Choose an Existing Card
+
+
+Email
+
+
+Card Name: 
+
+
+Card Type: 
+
+
+Card Details
+
+
+Existing
+
+
+Card Owner
+
+
+Items on %s Order No: %s
+
+
+Expiry: 
+
+
+Card Number
+
+
+Card Expiry Date
+
+
+New or Existing Card: 
+
+
+New
+
+
+Phone
+
+
+Card Security Code (CVV2)
+
+
+Street Address
+
+
+Last Digits: 
+
+
+City
+
+
+Card Valid From Date
+
+
+d/m/Y H:i:s
+
+
+List
+
+
+View Google Map
+
+
+Cancel
+
+
+Submit
+
+
+Add Address
+
+
+Grid
+
+
+Loading...
+
+
+Error Code(%s): %s in %s on line %s
+
+
+Credit Card / Debit Card (BluePay)
+
+
+Remember Card Details
+
+
+There was an error processing your transaction - 
+
+
+State
+
+
+Zipcode
+
+
+Choose an Existing Card
+
+
+E-mail
+
+
+Card Name: 
+
+
+Card Type: 
+
+
+Card Details
+
+
+Existing
+
+
+Card Owner
+
+
+Items on %s Order No: %s
+
+
+Expiry: 
+
+
+Card Number
+
+
+Card Expiry Date
+
+
+New or Existing Card: 
+
+
+New
+
+
+Phone
+
+
+Card Security Code (CVV2)
+
+
+Street Address
+
+
+Last Digits: 
+
+
+City
+
+
+Card Valid From Date
+
+
+Credit Card / Debit Card (Skrill)
+
+
+Remember Card Details
+
+
+(if available)
+
+
+Choose an Existing Card
+
+
+ for %s payments
+
+
+Card Name: 
+
+
+Card Type: 
+
+
+%s every %s %s
+
+
+(for Maestro and Solo cards only)
+
+
+Existing
+
+
+Expiry: 
+
+
+New or Existing Card: 
+
+
+New
+
+
+%s every %s %s for %s payments then 
+
+
+Last Digits: 
+
+
+Success: Your shipping estimate has been applied!
+
+
+Please select the preferred shipping method to use on this order.
+
+
+Region / State
+
+
+Warning: No Shipping options are available. Please <a href="%s">contact us</a> for assistance!
+
+
+Please select a country!
+
+
+Estimate Shipping &amp; Taxes
+
+
+Post Code
+
+
+Please select a region / state!
+
+
+Enter your destination to get a shipping estimate.
+
+
+Warning: Shipping method required!
+
+
+Country
+
+
+Postcode must be between 2 and 10 characters!
+
+
+(for Maestro and Solo cards only)
+
+
+(if available)
+
+
+Live Chat
+
+
+Warning: Gift Voucher is either invalid or the balance has been used up!
+
+
+Success: Your gift voucher discount has been applied!
+
+
+E-Mail Address does not appear to be valid!
+
+
+Amount must be between %s and %s!
+
+
+Success: You have modified your shopping cart!
+
+
+Warning: You do not have permission to access the API!
+
+
+%s Gift Certificate for %s
+
+
+Your Name must be between 1 and 64 characters!
+
+
+You must select a theme!
+
+
+Recipient's Name must be between 1 and 64 characters!
+
+
+Shipping
+
+
+Discount
+
+
+Total
+
+
+Tax
+
+
+Sub-total
+
+
+Warning: Payment method required!
+
+
+Success: Payment method has been set!
+
+
+Please select a country!
+
+
+Address 1 must be between 3 and 128 characters!
+
+
+Last Name must be between 1 and 32 characters!
+
+
+Please select a region / state!
+
+
+Warning: No Payment options are available!
+
+
+Warning: You do not have permission to access the API!
+
+
+City must be between 3 and 128 characters!
+
+
+Success: Payment address has been set!
+
+
+Postcode must be between 2 and 10 characters for this country!
+
+
+First Name must be between 1 and 32 characters!
+
+
+Warning: Payment address required!
+
+
+%s required!
+
+
+Ex Tax:
+
+
+Credit or Debit Card
+
+
+Diners
+
+
+RealMPI Fatal Error, no liability shift
+
+
+Card issue number
+
+
+(if available)
+
+
+AVS address
+
+
+TSS result
+
+
+Card country
+
+
+Please check the card holder name is valid
+
+
+Auth code
+
+
+Switch
+
+
+Merchant requires 3D secure but unable to verify with your bank, please try later
+
+
+Please check your card number is valid
+
+
+Card type
+
+
+AVS postcode
+
+
+Please wait!
+
+
+ECI (3D secure) result
+
+
+American Express
+
+
+Please check the CVV2 is valid
+
+
+Card issue bank
+
+
+(for Maestro and Solo cards only)
+
+
+Message
+
+
+Credit Card Details
+
+
+Order ref
+
+
+Visa
+
+
+Unable To Verify Enrolment, no liability shift
+
+
+Mastercard
+
+
+CVN result
+
+
+An invalid response was received from the card processor, no payment has been taken
+
+
+Card number
+
+
+Timestamp
+
+
+Card expiry date
+
+
+Authentication Attempt Acknowledged, liability shift
+
+
+Invalid Response From Enrolment Server, no liability shift
+
+
+Card region
+
+
+Cardholder Not Enrolled, liability shift
+
+
+Incorrect Password Entered, no liability shift
+
+
+Last 4 digits
+
+
+Successful Authentication, liability shift
+
+
+Enrolled, But Invalid Response From ACS (Access Control Server), no liability shift
+
+
+Invalid Response From ACS, no liability shift
+
+
+Authentication Unavailable, no liability shift
+
+
+Card security code (CVV2)
+
+
+Result
+
+
+Laser
+
+
+3D secure authorisation failed
+
+
+Cardholder name
+
+
+Credit or Debit Card
+
+
+Could not connect to PayPal. Please contact the shop's administrator for assistance or choose a different payment method.
+
+
+Creating a secure connection...
+
+
+Minimum order amount for %s is %s!
+
+
+Success: You have modified your shopping cart!
+
+
+Products marked with *** are not available in the desired quantity or not in stock!
+
+
+%s required!
+
+
+Warning: You do not have permission to access the API!
+
+
+Product can not be bought from the store you have choosen!
+
+
+Credit / Debit card (Realex)
+
+
+Diners
+
+
+RealMPI Fatal Error, no liability shift
+
+
+No Liability Shift
+
+
+There was an error processing your request.
+
+
+AVS address
+
+
+TSS result
+
+
+Switch
+
+
+Please select your card type
+
+
+Card Type
+
+
+AVS postcode
+
+
+ECI (3D secure) result
+
+
+Card name
+
+
+Card type
+
+
+American Express
+
+
+Message
+
+
+Card expire
+
+
+Order ref
+
+
+Visa
+
+
+Unable To Verify Enrolment, no liability shift
+
+
+Mastercard
+
+
+CVN result
+
+
+Timestamp
+
+
+Authentication Attempt Acknowledged, liability shift
+
+
+Invalid Response From Enrolment Server, no liability shift
+
+
+Please click <a href="%s">here</a> to continue
+
+
+Cardholder Not Enrolled, liability shift
+
+
+Incorrect Password Entered, no liability shift
+
+
+Your payment has been authorised.
+
+
+Successful Authentication, liability shift
+
+
+Enrolled, But Invalid Response From ACS (Access Control Server), no liability shift
+
+
+Invalid Response From ACS, no liability shift
+
+
+Authentication Unavailable, no liability shift
+
+
+There was an error processing your request with the bank.
+
+
+Confirm
+
+
+Auth result
+
+
+Your payment was unsuccessful
+
+
+Laser
+
+
+Card number
+
+
+Hash check failed. Do not try your payment again as the payment status is unknown. Please contact the merchant.
+
+
+Credit or Debit Card
+
+
+Diners
+
+
+RealMPI Fatal Error, no liability shift
+
+
+Card issue number
+
+
+(if available)
+
+
+AVS address
+
+
+TSS result
+
+
+Card country
+
+
+Please check the card holder name is valid
+
+
+Auth code
+
+
+Switch
+
+
+Merchant requires 3D secure but unable to verify with your bank, please try later
+
+
+Please check your card number is valid
+
+
+Card type
+
+
+AVS postcode
+
+
+Please wait!
+
+
+ECI (3D secure) result
+
+
+American Express
+
+
+Please check the CVV2 is valid
+
+
+Card issue bank
+
+
+(for Maestro and Solo cards only)
+
+
+Message
+
+
+Credit Card Details
+
+
+Order ref
+
+
+Visa
+
+
+Unable To Verify Enrolment, no liability shift
+
+
+Mastercard
+
+
+CVN result
+
+
+An invalid response was received from the card processor, no payment has been taken
+
+
+Card number
+
+
+Timestamp
+
+
+Card expiry date
+
+
+Authentication Attempt Acknowledged, liability shift
+
+
+Invalid Response From Enrolment Server, no liability shift
+
+
+Card region
+
+
+Cardholder Not Enrolled, liability shift
+
+
+Incorrect Password Entered, no liability shift
+
+
+Last 4 digits
+
+
+Successful Authentication, liability shift
+
+
+Enrolled, But Invalid Response From ACS (Access Control Server), no liability shift
+
+
+Invalid Response From ACS, no liability shift
+
+
+Authentication Unavailable, no liability shift
+
+
+Card security code (CVV2)
+
+
+Result
+
+
+Laser
+
+
+3D secure authorisation failed
+
+
+Cardholder name
+
+
+Warning: Minimum order amount for %s is %s!
+
+
+Warning: Shipping address required!
+
+
+Success: You have modified orders!
+
+
+Warning: Products marked with *** are not available in the desired quantity or not in stock!
+
+
+Warning: No Shipping options are available!
+
+
+Warning: Payment method required!
+
+
+Warning: No Payment options are available!
+
+
+Warning: You do not have permission to access the API!
+
+
+Warning: Shipping method required!
+
+
+Warning: Customer details needs to be set!
+
+
+Warning: Order could not be found!
+
+
+Warning: Payment address required!
+
+
+Your shopping cart is empty!
+
+
+View Cart
+
+
+Payment Profile
+
+
+%s item(s) - %s
+
+
+Checkout
+
+
+Credit or Debit Card
+
+
+American Express
+
+
+Diners
+
+
+Card security code does not match
+
+
+Card security code match
+
+
+(if available)
+
+
+A blank response should indicate that no code was sent and that there was no indication that the code was not present on the card.
+
+
+Fault message: 
+
+
+Please check your card number is valid
+
+
+Please check the card holder name is valid
+
+
+Issuer is not certified and/or has not provided encryption keys
+
+
+Merchant has indicated that the card security code is not present on the card
+
+
+Card Issuer confirmed that street and postcode match with their records
+
+
+Ref number: 
+
+
+Not processed
+
+
+Card brand: 
+
+
+Mastercard
+
+
+Card Issuer confirmed that street matches with their records but postcode does not match
+
+
+Error message: 
+
+
+Card Issuer did not check the AVS information
+
+
+Please wait!
+
+
+Please check the CVV2 is valid
+
+
+Card last 4 digits: xxxx 
+
+
+(for Maestro and Solo cards only)
+
+
+Card Issuer confirmed that postcode matches with their records. The Issuer did not check the street
+
+
+No response from the credit card association was received
+
+
+Reference: 
+
+
+Credit Card Details
+
+
+Card Issuer confirmed that street matches with their records. The Issuer did not check the postcode
+
+
+No address data provided or Address not checked by the Card Issuer
+
+
+Approval code: 
+
+
+Both street and postcode do not match with the Card Issuer records
+
+
+Card number
+
+
+Unable to process your payment, please contact the merchant
+
+
+Card expiry date
+
+
+Processor code: 
+
+
+Card Issuer confirmed that postcode matches with their records but street does not match
+
+
+Maestro
+
+
+Cardholder name
+
+
+Visa (Credit/Debit/Electron/Delta)
+
+
+Card security code (CVV2)
+
+
+Result: 
+
+
+Accepted cards: 
+
+
+New card
+
+
+Security code: 
+
+
+Address verification: 
+
+
+Response code: 
+
+
+Warning: Please enter the amount of reward points to use!
+
+
+Use Reward Points (Available %s)
+
+
+Warning: The maximum number of points that can be applied is %s!
+
+
+Points to use (Max %s)
+
+
+Warning: You don't have %s reward points!
+
+
+Success: Your reward points discount has been applied!
+
+
+Enter your coupon here
+
+
+Success: Your coupon discount has been applied!
+
+
+Use Coupon Code
+
+
+Warning: Please enter a coupon code!
+
+
+Warning: Coupon is either invalid, expired or reached its usage limit!
+
+
+Credit / Debit card (Globalpay)
+
+
+Diners
+
+
+RealMPI Fatal Error, no liability shift
+
+
+No Liability Shift
+
+
+There was an error processing your request.
+
+
+AVS address
+
+
+TSS result
+
+
+Switch
+
+
+Please select your card type
+
+
+Card Type
+
+
+AVS postcode
+
+
+ECI (3D secure) result
+
+
+Card name
+
+
+Card type
+
+
+American Express
+
+
+Message
+
+
+Card expire
+
+
+Order ref
+
+
+Visa
+
+
+Unable To Verify Enrolment, no liability shift
+
+
+Mastercard
+
+
+CVN result
+
+
+Timestamp
+
+
+Authentication Attempt Acknowledged, liability shift
+
+
+Invalid Response From Enrolment Server, no liability shift
+
+
+Please click <a href="%s">here</a> to continue
+
+
+Cardholder Not Enrolled, liability shift
+
+
+Incorrect Password Entered, no liability shift
+
+
+Your payment has been authorised.
+
+
+Successful Authentication, liability shift
+
+
+Enrolled, But Invalid Response From ACS (Access Control Server), no liability shift
+
+
+Invalid Response From ACS, no liability shift
+
+
+Authentication Unavailable, no liability shift
+
+
+There was an error processing your request with the bank.
+
+
+Confirm
+
+
+Auth result
+
+
+Your payment was unsuccessful
+
+
+Laser
+
+
+Card number
+
+
+Hash check failed. Do not try your payment again as the payment status is unknown. Please contact the merchant.
+
+
+Credit / Debit card
+
+
+Card type
+
+
+Matched
+
+
+Postcode check: %s
+
+
+Payment details
+
+
+Confirm
+
+
+Not checked
+
+
+CVV2 check: %s
+
+
+Not matched
+
+
+Not given
+
+
+Address check: %s
+
+
+Ex Tax:
+
+
+You have no addresses in your account.
+
+
+Your address has been successfully inserted
+
+
+Your address has been successfully updated
+
+
+%s required!
+
+
+year
+
+
+ for %s payments
+
+
+week
+
+
+Please select a payment recurring!
+
+
+%s every %s %s
+
+
+month
+
+
+%s every %d %s(s) for %d payment(s)
+
+
+day
+
+
+%s every %s %s for %s payments then 
+
+
+until cancelled
+
+
+%s every %d %s(s) until canceled
+
+
+Payment Profile
+
+
+%s every %d %s(s) for %d payment(s) then
+
+
+Recurring Item
+
+
+half-month
+
+
+Optional
+
+
+Value must be between %s and %s
+
+
+Tracking Link
+
+
+Type in the name of a product you would like to link to
+
+
+Your Tracking Code
+
+
+Tracking Link Generator
+
+
+Order ID
+
+
+Customer
+
+
+Return ID
+
+
+Warning: Gift Voucher is either invalid or the balance has been used up!
+
+
+Success: Your gift voucher discount has been applied!
+
+
+Use Gift Voucher
+
+
+Enter your gift voucher code here
+
+
+Warning: Please enter a voucher code!
+
+
+<p>Congratulations! Your new account has been successfully created!</p> <p>You are now a member of %s affiliates.</p> <p>If you have ANY questions about the operation of this affiliate system, please e-mail the store owner.</p> <p>A confirmation has been sent to the provided e-mail address. If you have not received it within the hour, please <a href="%s">contact us</a>.</p>
+
+
+Order ID
+
+
+Customer
+
+
+%s is not currently available to be reordered.
+
+
+No. of Products
+
+
+Related Products
+
+
+Please <a href="%s">login</a> or <a href="%s">register</a> to review
+
+
+month
+
+
+%s every %d %s(s) for %d payment(s)
+
+
+day
+
+
+week
+
+
+%s every %d %s(s) until canceled
+
+
+%s every %d %s(s) for %d payment(s) then
+
+
+Qty
+
+
+Payment Profile
+
+
+year
+
+
+half-month
+
+
+International Economy
+
+
+Special Delivery Next Day
+
+
+International Standard
+
+
+Second Class Signed Post
+
+
+First Class Signed Post
+
+
+International Tracked
+
+
+International Tracked & Signed
+
+
+Your file was successfully uploaded!
+
+
+Invalid file type!
+
+
+Filename must be between 3 and 64 characters!
+
+
+Upload required!
+
+
+%s required!
+
+
+Suspended
+
+
+Recurring payment details
+
+
+Recurring payment has been cancelled
+
+
+No recurring payments found
+
+
+Recurring Payments
+
+
+Outstanding payment
+
+
+Payment skipped
+
+
+Return
+
+
+Expired
+
+
+Pending
+
+
+No transactions for this recurring profile
+
+
+Cancelled
+
+
+Payment method: 
+
+
+Status
+
+
+Account
+
+
+Profile ID: 
+
+
+Action
+
+
+View
+
+
+Transactions
+
+
+Recurring payment
+
+
+Suspended
+
+
+Status: 
+
+
+Inactive
+
+
+Order: 
+
+
+Continue
+
+
+Type
+
+
+Payment
+
+
+Cancelled
+
+
+Product: 
+
+
+Quantity: 
+
+
+Payment failed
+
+
+Created: 
+
+
+Profile ID
+
+
+Action
+
+
+Could not cancel recurring
+
+
+Created
+
+
+Product
+
+
+Outstanding payment failed
+
+
+Error: %s
+
+
+Reference: 
+
+
+Created
+
+
+Amount
+
+
+Active
+
+
+Expired
+
+
+Description: 
+
+
+Suspended from failed payment
+
+
+Success: API session successfully started!
+
+
+Warning: Your IP %s is not allowed to access this API!
+
+
+Warning: Incorrect API Key!
+
+
+Order ID
+
+
+Date Added
+
+
+Size
+
+
+Name
+
+
+Loading
+
+
+(if available)
+
+
+(for Maestro and Solo cards only)
+
+
+Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.
+
+
+Credit / Debit card (First Data)
+
+
+Card used: 
+
+
+American Express
+
+
+Diners
+
+
+Card security code does not match
+
+
+Card security code match
+
+
+A blank response should indicate that no code was sent and that there was no indication that the code was not present on the card.
+
+
+Ref number: 
+
+
+Issuer is not certified and/or has not provided encryption keys
+
+
+Merchant has indicated that the card security code is not present on the card
+
+
+Card type: 
+
+
+Not processed
+
+
+No response from the credit card association was received
+
+
+Card Issuer did not check the AVS information
+
+
+Mastercard
+
+
+Card Issuer confirmed that postcode matches with their records. The Issuer did not check the street
+
+
+Card Issuer confirmed that street matches with their records but postcode does not match
+
+
+Card Issuer confirmed that street matches with their records. The Issuer did not check the postcode
+
+
+No address data provided or Address not checked by the Card Issuer
+
+
+Remember my card details
+
+
+Both street and postcode do not match with the Card Issuer records
+
+
+Unable to process your payment, please try again
+
+
+Maestro UK/Solo
+
+
+Approval code: 
+
+
+Address verification: 
+
+
+Card Issuer confirmed that postcode matches with their records but street does not match
+
+
+Maestro
+
+
+Visa (Credit/Debit/Electron/Delta)
+
+
+Card Issuer confirmed that street and postcode match with their records
+
+
+Continue
+
+
+New card
+
+
+Processor code: 
+
+
+Security code: 
+
+
+Full response code: 
+
+
+Credit Card / Debit Card (SagePay)
+
+
+Remember card details for future use
+
+
+There was an error processing your transaction.
+
+
+There was an error processing your request.
+
+
+Choose an Existing Card
+
+
+ for %s payments
+
+
+Card Name: 
+
+
+Card Type: 
+
+
+%s every %s %s
+
+
+Card Details
+
+
+Existing
+
+
+Items on %s Order No: %s
+
+
+Expiry: 
+
+
+New or Existing Card: 
+
+
+Please click <a href="%s">here</a> to continue
+
+
+Your payment has been authorised.
+
+
+New
+
+
+There was an error processing your request with the bank.
+
+
+Your payment has been declined.
+
+
+%s every %s %s for %s payments then 
+
+
+Last Digits: 
+
+
+Hash check failed. Do not try your payment again as the payment status is unknown. Please contact the merchant.
+
+
+Warning: Shipping method required!
+
+
+Success: Shipping method has been set!
+
+
+Please select a country!
+
+
+Address 1 must be between 3 and 128 characters!
+
+
+Last Name must be between 1 and 32 characters!
+
+
+Please select a region / state!
+
+
+Warning: You do not have permission to access the API!
+
+
+City must be between 3 and 128 characters!
+
+
+Success: Shipping address has been set!
+
+
+Postcode must be between 2 and 10 characters for this country!
+
+
+First Name must be between 1 and 32 characters!
+
+
+Warning: No Shipping options are available!
+
+
+Warning: Shipping address required!
+
+
+%s required!
+
+
+Maintenance
+
+
+Enter your coupon here:
+
+
+Shopping Cart
+
+
+Cancel payments
+
+
+Recurring Item
+
+
+Shipping service updated
+
+
+Continue to PayPal
+
+
+There was an error
+
+
+Confirm
+
+
+%s every %s %s
+
+
+Update shipping
+
+
+%s every %s %s for %s payments then 
+
+
+Confirm order
+
+
+Add
+
+
+ for %s payments
+
+
+Your payment has failed too many times
+
+
+Continue
+
+
