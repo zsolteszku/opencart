@@ -104,13 +104,29 @@ class LanguageValue:
     def add_value(self, file, value):
         self.values.append(LanguageEntity(file, value))
 
-    def get_prompt(self):
-        str = "There are value(s) for key(\"{}\") that already defined, you can select one of them:\n\t0. Create new value\n".format(self.key)
-        idx = 1
+    def get_defaults(self, google_translate):
+        if not google_translate:
+            return ("There are value(s) for key(\"{}\") that already defined, you can select one of them:\n\t0. Create new value\n".format(self.key),1)
+        else:
+            return ("There are value(s) for key(\"{}\") that already defined, you can select one of them:\n\t0. Create new value\n\t1. Google Translate: {}\n".format(self.key, google_translate),2)
+
+    def get_prompt(self, google_translate = None):
+        str, idx = self.get_defaults(google_translate)
         for entity in self.values:
             str += "\t{}. {}\n".format(idx, entity)
             idx += 1
         return str + "Select a number: "
+
+    def get_good(self, index, google_translate = None):
+        if index <= len(self.values) + (1 if google_translate else 0):
+            if index == 0:
+                return get_new_key("Please give me the new value: ")
+            elif index == 1 and google_translate is not None:
+                #google_translate
+                return google_translate
+            else:
+                return self.values[index- (2 if google_translate else 1) ].value
+        return None
 
     def contains(self, value):
         for entity in self.values:
@@ -131,6 +147,10 @@ class LanguageError:
         self.reference_filename = reference_filename
         self.key = key
         self.reference_value = reference_value
+        self.google_translate = None
+
+    def set_google_translate(self, google_translate):
+        self.google_translate = google_translate
 
 class FileError:
 
@@ -170,22 +190,15 @@ def fix_errors():
                 for lang_error in file_error.lang_errors:
                     key = lang_error.key
                     reference_value = lang_error.reference_value
-                    good = ""
+                    good = None
                     if key in all_check_keys:
-                        ok = False
-                        while not ok:
+                        while good is None:
                             sys.stdout.write("{} > {}".format(check_file.name, all_check_keys[key].get_prompt()))
                             response = sys.stdin.readline().strip()
                             if response.isdigit():
-                                index = int(response)
-                                if index <= len(all_check_keys[key].values):
-                                    if index == 0:
-                                        good = get_new_key("Please give me the new value: ")
-                                    else:
-                                        good = all_check_keys[key].values[index-1].value
-                                    ok = True
-                                    break
-                            err("Wrong response got. Please select a number between 0 and {}!".format(len(all_check_keys[key].values)))
+                                good = all_check_keys[key].get_good(int(response), lang_error.google_translate)
+                            if good is None:
+                                err("Wrong response got. Please select a number between 0 and {}!".format(len(all_check_keys[key].values)))
                     else:
                         good = get_new_key("{} > Key for ['{}'](English is: \"{}\"): ".format(check_file.name, key, reference_value))
                     write_pair(check_file, key, good)
@@ -241,6 +254,10 @@ def calcualte_key_errors():
          key_errors_size += len(key_errors[file].lang_errors)
      return key_errors_size    
 
+def fetch_google_translate():
+     print("Fetching google translates...")
+
+
 def main():
     parser = ExtendedArgumentParser(description="LanguageCoverity for OpenCart")
     parser.add_argument("-p", "--path_to_langs", required=True, type="DIR", help="Path to the languages directory")
@@ -270,6 +287,7 @@ def main():
     interactive = parsed.interactive
     parse_files()
     if interactive:
+        fetch_google_translate()
         fix_errors()
     key_errors_size = calcualte_key_errors()
     wr("TotalReferenceKeys: {}\nTotalCheckKeys: {}\nTotalFiles: {}\nFileErrors: {}\nKeyErrors: {}\nParsingError: {}".format(total_reference_keys,total_check_keys,total_files, file_errors, key_errors_size, parsing_error))
