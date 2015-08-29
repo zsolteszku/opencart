@@ -29,17 +29,79 @@
         <h3 class="panel-title"><i class="fa fa-list"></i> Import</h3>
       </div>
       <div class="panel-body">
-        <form action="<?php echo $process; ?>" method="post" enctype="multipart/form-data" id="form-import">
-          <label>Csv file</label> <input type="file" accept=".csv" />
-           
-            <p><?php echo $testString ?></p>
-            <p><?php echo $testString2 ?></p>
-
-          <br />
-          <a href="<?php echo $process; ?>" data-toggle="tooltip" title="Press to start the import process" class="btn btn-primary"><i class="fa fa-upload"></i></a>
+        <form action="<?php echo $process; ?>" method="post" enctype="multipart/form-data" id="form-import" class="form-horizontal">
+            <div class="form-group">
+                <label class="form-label col-sm-2" for="selectedFile">Csv file</label>
+                <div class="col-sm-10">
+                    <select class="form-control" id="selectedFile" name="selectedFile" >
+                        <?php foreach ($files as $file) { ?>
+                        <option value="<?php echo $file; ?>"><?php echo $file; ?></option>
+                        <?php } ?>
+                    </select>
+                </div>  
+            </div>
+            <button type="submit" data-toggle="tooltip" title="Press to start the import process" class="btn btn-primary submit"><i class="fa fa-play"></i>&nbsp Import </button>
         </form>
+
+
       </div>
     </div>
+    <?php if( count($newManufacturers) > 0 || count($updatedManufacturers) > 0 ) { ?>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-list"></i> Import result</h3>
+      </div>
+      <div class="panel-body">
+           <?php if ( $newManufacturers ) { ?>
+          <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <caption>Added Manufacturers</caption>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <?php foreach ($newManufacturers as $manufacturer) { ?>
+                        <tr>
+                            <td>
+                                  <?php echo $manufacturer['manufacturer_id'] ?> 
+                            </td> 
+                            <td>
+                                  <?php echo $manufacturer['name'] ?> 
+                            </td>
+                        </tr>
+                    <?php } ?>
+                </table>
+            </div>
+          <?php } ?>
+         
+          <?php if ( $updatedManufacturers ) { ?>
+          <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                    <caption>Updated Manufacturers</caption>
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <?php foreach ($updatedManufacturers as $manufacturer) { ?>
+                        <tr>
+                            <td>
+                                  <?php echo $manufacturer['manufacturer_id'] ?> 
+                            </td> 
+                            <td>
+                                  <?php echo $manufacturer['name'] ?> 
+                            </td>
+                        </tr>
+                    <?php } ?>
+                </table>
+            </div>
+          <?php } ?>
+      </div>
+    </div>
+    <?php } ?>
   </div>
 </div>
 <?php echo $footer; ?>
