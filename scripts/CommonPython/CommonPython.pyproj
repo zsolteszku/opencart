@@ -32,6 +32,9 @@
     <Compile Include="readchar\readchar_linux.py" />
     <Compile Include="readchar\readchar_windows.py" />
     <Compile Include="readchar\__init__.py" />
+    <Compile Include="utilities.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="readchar" />

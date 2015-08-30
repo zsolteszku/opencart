@@ -20,6 +20,7 @@ install_package.install_packages([ PackageInfo("setuptools", "https://pypi.pytho
 import logging
 from colorlog import ColoredFormatter  
 from colorama import init, AnsiToWin32
+import utilities
 
 init(wrap=False)
 stream = AnsiToWin32(sys.stdout).stream
@@ -232,7 +233,7 @@ def parse_file_pair(reference_filepath, check_filepath):
 
 def parse_files():
     print("Parsing all lang files...")
-    global reference_path, check_path, total_files, file_errors, reference_lang, check_lang
+    global reference_path, check_path, total_files, file_errors, reference_lang, check_lang, skip_files, skipped_files_num
     for root, dirs, filenames in os.walk(reference_path):
         relroot = os.path.relpath(root, reference_path)
         for filename in filenames:
@@ -243,6 +244,9 @@ def parse_files():
             else:
                 check_filename = filename
             check_filepath = os.path.abspath(os.path.join(check_path, relroot, check_filename))
+            if not utilities.is_enabled_file(check_filepath, skip_files):
+                skipped_files_num += 1
+                continue
             if not os.path.exists(check_filepath):
                 logger.error("Cannot find file but in the reference its exists: {}. Will create it!".format(check_filepath))
                 file_errors += 1
@@ -314,11 +318,14 @@ def main():
     parser.add_argument("-e", "--error_file", default="error.txt", type=argparse.FileType('w'), help="ErrorFile")
     parser.add_argument("-o", "--output_file", default="output.txt", type=argparse.FileType("w"))
     parser.add_argument("-i", "--interactive", action="store_true")
+    parser.add_argument("-s", "--skip_files_config_file", default="skip_files_catalog.txt", type=argparse.FileType("r"))
     parsed = parser.parse_args()
-    global key_errors, file_errors, total_files, parsing_error, error_file, total_reference_keys, total_check_keys, interactive
+    global key_errors, file_errors, total_files, parsing_error, error_file, total_reference_keys, total_check_keys, interactive, skipped_files_num
     global reference_lang, check_lang, reference_path, check_path
     global all_reference_keys, all_check_keys, output_file
     global google_translate_map
+    global skip_files
+    skipped_files_num = 0
     google_translate_map = dict()
     all_reference_keys = dict()
     all_check_keys = dict()
@@ -328,6 +335,7 @@ def main():
     check_lang = parsed.check_lang
     reference_path = os.path.abspath(os.path.join(parsed.path_to_langs, reference_lang))
     check_path = os.path.abspath(os.path.join(parsed.path_to_langs, check_lang))
+    skip_files = utilities.parse_ignore_files(parsed.skip_files_config_file, [reference_path, check_path])
     if not os.path.isdir(reference_path) or not os.path.isdir(check_path):
         raise Exception("Cannot find {} or {} lang in path {}".format(reference_lang, check_lang, parsed.path_to_langs))
     key_errors = dict()
@@ -344,7 +352,7 @@ def main():
         fix_errors()
     key_errors_size = calcualte_key_errors()
     characters = calcualte_key_errors_characters()
-    wr("TotalReferenceKeys: {}\nTotalCheckKeys: {}\nTotalFiles: {}\nFileErrors: {}\nKeyErrors: {}\nParsingError: {}\nTotal translated characters: {}".format(total_reference_keys,total_check_keys,total_files, file_errors, key_errors_size, parsing_error, characters))
+    wr("TotalReferenceKeys: {}\nTotalCheckKeys: {}\nTotalFiles: {}\nSkippedFiles: {}\nFileErrors: {}\nKeyErrors: {}\nParsingError: {}\nTotal translated characters: {}".format(total_reference_keys,total_check_keys,total_files, skipped_files_num, file_errors, key_errors_size, parsing_error, characters))
            
 
 if __name__ == "__main__":
